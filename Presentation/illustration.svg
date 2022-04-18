@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="C:\Users\maxmu\OneDrive\Documents\Projects\EulerSprial\illustration.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="illustration.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2"
+     inkscape:cx="286.75"
+     inkscape:cy="175.25"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="false" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient19782"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop19780" />
+    </linearGradient>
+    <rect
+       x="101.27997"
+       y="40.793322"
+       width="378.39323"
+       height="376.98656"
+       id="rect9704" />
+    <linearGradient
+       id="linearGradient1005"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop1003" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient19782"
+       id="linearGradient19784"
+       x1="67.529514"
+       y1="94.002777"
+       x2="97.296026"
+       y2="94.002777"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.52916663,1.5875)" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 45.249028,93.417291 C 105.54226,70.714284 101.44827,14.142857 101.44827,14.142857 v 0"
+       id="path80" />
+    <circle
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.483;stroke-miterlimit:4;stroke-dasharray:1.449, 1.449;stroke-dashoffset:0;stroke-opacity:1"
+       id="path104"
+       cx="68.481209"
+       cy="47.639099"
+       r="23.447369" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 68.638188,48.697432 88.735933,59.862843"
+       id="path1078" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.230214px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 113.43087,20.931539 66.471622,95.596212"
+       id="path1080" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="79.092758"
+       y="52.071751"
+       id="text2770"><tspan
+         sodipodi:role="line"
+         id="tspan2768"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Franklin Gothic Book';-inkscape-font-specification:'Franklin Gothic Book, ';stroke-width:0.264583"
+         x="79.092758"
+         y="52.071751">r</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text9702"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect9704)"
+       inkscape:export-filename="C:\Users\maxmu\OneDrive\Documents\Projects\EulerSprial\illustration.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:1.395,1.395;stroke-dashoffset:0"
+       d="M 68.638186,48.697432 V 61.647916"
+       id="path15707" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:Symbol;-inkscape-font-specification:Symbol;stroke-width:0.264583"
+       x="70.225685"
+       y="57.42868"
+       id="text17019"><tspan
+         sodipodi:role="line"
+         id="tspan17017"
+         style="font-size:7.05556px;stroke-width:0.264583"
+         x="70.225685"
+         y="57.42868">q</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:Symbol;-inkscape-font-specification:Symbol;stroke-width:0.264583"
+       x="73.563126"
+       y="93.412727"
+       id="text17019-7"><tspan
+         sodipodi:role="line"
+         id="tspan17017-5"
+         style="font-size:7.05556px;stroke-width:0.264583"
+         x="73.563126"
+         y="93.412727">q</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.365;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 67.529955,94.008709 c 38.567965,0 38.567965,0 0,0 z"
+       id="path19144" />
+    <path
+       style="fill:none;stroke:none;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 67.529955,94.008709 c 45.976295,-0.08163 45.976295,0.182956 0,0 z"
+       id="path19146" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:url(#linearGradient19784);stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.395, 1.395;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 67.000789,95.596212 c 39.687501,-0.13229 39.687501,-0.13229 0,0 z"
+       id="path19456" />
+  </g>
+</svg>
