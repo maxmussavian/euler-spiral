@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.30)  18 APR 2022 20:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.30)  18 APR 2022 21:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -953,25 +953,25 @@ Dictionary: translator-theorem-dictionary, Language: English
 <Tonbridge_School_logo.png, id=45, 119.44624pt x 137.51375pt>
 File: Tonbridge_School_logo.png Graphic file (type png)
 <use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 25.
+Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 24.
 (pdftex.def)             Requested size: 37.07169pt x 42.67912pt.
  [2
 
  <./Tonbridge_School_logo.png>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
 
 
 (C:\Users\maxmu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
 
 
 (C:\Users\maxmu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 35.
+ut line 34.
 
 (C:\Users\maxmu\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathk
 erncmss.fd
@@ -980,28 +980,28 @@ thkerncmss.
 )
 File: Tonbridge_School_logo.png Graphic file (type png)
 <use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 35.
+Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 34.
 (pdftex.def)             Requested size: 37.07169pt x 42.67912pt.
  [3
 
 ]
 File: Tonbridge_School_logo.png Graphic file (type png)
 <use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 48.
+Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 47.
 (pdftex.def)             Requested size: 37.07169pt x 42.67912pt.
  [4
 
 ]
 File: Tonbridge_School_logo.png Graphic file (type png)
 <use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 65.
+Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 64.
 (pdftex.def)             Requested size: 37.07169pt x 42.67912pt.
  [5
 
 ]
 File: Tonbridge_School_logo.png Graphic file (type png)
 <use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 74.
+Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 73.
 (pdftex.def)             Requested size: 37.07169pt x 42.67912pt.
  [6
 
@@ -1009,58 +1009,58 @@ Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 74.
 <illustration.png, id=191, 195.73125pt x 232.61906pt>
 File: illustration.png Graphic file (type png)
 <use illustration.png>
-Package pdftex.def Info: illustration.png  used on input line 108.
+Package pdftex.def Info: illustration.png  used on input line 107.
 (pdftex.def)             Requested size: 97.86537pt x 116.30923pt.
 
-Overfull \hbox (19.35777pt too wide) in paragraph at lines 108--108
+Overfull \hbox (19.35777pt too wide) in paragraph at lines 107--107
  [] 
  []
 
 File: Tonbridge_School_logo.png Graphic file (type png)
 <use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 108.
+Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 107.
 (pdftex.def)             Requested size: 37.07169pt x 42.67912pt.
 [7
 
  <./illustration.png>]
 File: Tonbridge_School_logo.png Graphic file (type png)
 <use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 123.
+Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 122.
 (pdftex.def)             Requested size: 37.07169pt x 42.67912pt.
  [8
 
 ]
 File: Tonbridge_School_logo.png Graphic file (type png)
 <use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 136.
+Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 135.
 (pdftex.def)             Requested size: 37.07169pt x 42.67912pt.
  [9
 
 ]
 File: Tonbridge_School_logo.png Graphic file (type png)
 <use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 145.
+Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 144.
 (pdftex.def)             Requested size: 37.07169pt x 42.67912pt.
  [10
 
 ]
 File: Tonbridge_School_logo.png Graphic file (type png)
 <use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 160.
+Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 159.
 (pdftex.def)             Requested size: 37.07169pt x 42.67912pt.
  [11
 
 ]
 File: Tonbridge_School_logo.png Graphic file (type png)
 <use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 171.
+Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 170.
 (pdftex.def)             Requested size: 37.07169pt x 42.67912pt.
  [12
 
 ]
 File: Tonbridge_School_logo.png Graphic file (type png)
 <use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 189.
+Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 188.
 (pdftex.def)             Requested size: 37.07169pt x 42.67912pt.
  [13
 
@@ -1068,16 +1068,16 @@ Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 189.
 <code_1.png, id=377, 333.04425pt x 177.66376pt>
 File: code_1.png Graphic file (type png)
 <use code_1.png>
-Package pdftex.def Info: code_1.png  used on input line 204.
+Package pdftex.def Info: code_1.png  used on input line 203.
 (pdftex.def)             Requested size: 166.52171pt x 88.83165pt.
 <code_2.png, id=378, 533.5935pt x 235.47975pt>
 File: code_2.png Graphic file (type png)
 <use code_2.png>
-Package pdftex.def Info: code_2.png  used on input line 204.
+Package pdftex.def Info: code_2.png  used on input line 203.
 (pdftex.def)             Requested size: 266.7961pt x 117.73958pt.
 File: Tonbridge_School_logo.png Graphic file (type png)
 <use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 204.
+Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 203.
 (pdftex.def)             Requested size: 37.07169pt x 42.67912pt.
  [14
 
@@ -1085,11 +1085,11 @@ Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 204.
 <euler_spiral.png, id=407, 290.08376pt x 248.93pt>
 File: euler_spiral.png Graphic file (type png)
 <use euler_spiral.png>
-Package pdftex.def Info: euler_spiral.png  used on input line 214.
+Package pdftex.def Info: euler_spiral.png  used on input line 213.
 (pdftex.def)             Requested size: 145.04152pt x 124.46469pt.
 File: Tonbridge_School_logo.png Graphic file (type png)
 <use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 214.
+Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 213.
 (pdftex.def)             Requested size: 37.07169pt x 42.67912pt.
  [15
 
@@ -1097,11 +1097,11 @@ Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 214.
 <euler_x_vs_y.png, id=435, 395.4775pt x 265.99374pt>
 File: euler_x_vs_y.png Graphic file (type png)
 <use euler_x_vs_y.png>
-Package pdftex.def Info: euler_x_vs_y.png  used on input line 223.
+Package pdftex.def Info: euler_x_vs_y.png  used on input line 222.
 (pdftex.def)             Requested size: 197.73827pt x 132.99654pt.
 File: Tonbridge_School_logo.png Graphic file (type png)
 <use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 223.
+Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 222.
 (pdftex.def)             Requested size: 37.07169pt x 42.67912pt.
  [16
 
@@ -1109,11 +1109,11 @@ Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 223.
 <chaise_longue.png, id=464, 597.23125pt x 199.74625pt>
 File: chaise_longue.png Graphic file (type png)
 <use chaise_longue.png>
-Package pdftex.def Info: chaise_longue.png  used on input line 231.
+Package pdftex.def Info: chaise_longue.png  used on input line 230.
 (pdftex.def)             Requested size: 298.61488pt x 99.87288pt.
 File: Tonbridge_School_logo.png Graphic file (type png)
 <use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 231.
+Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 230.
 (pdftex.def)             Requested size: 37.07169pt x 42.67912pt.
  [17
 
@@ -1121,11 +1121,11 @@ Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 231.
 <s_squared_minus_219.png, id=492, 160.6pt x 248.93pt>
 File: s_squared_minus_219.png Graphic file (type png)
 <use s_squared_minus_219.png>
-Package pdftex.def Info: s_squared_minus_219.png  used on input line 239.
+Package pdftex.def Info: s_squared_minus_219.png  used on input line 238.
 (pdftex.def)             Requested size: 32.11942pt x 49.78511pt.
 File: Tonbridge_School_logo.png Graphic file (type png)
 <use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 239.
+Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 238.
 (pdftex.def)             Requested size: 37.07169pt x 42.67912pt.
  [18
 
@@ -1133,11 +1133,11 @@ Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 239.
 <five_s^4.png, id=520, 373.395pt x 213.79875pt>
 File: five_s^4.png Graphic file (type png)
 <use five_s^4.png>
-Package pdftex.def Info: five_s^4.png  used on input line 247.
+Package pdftex.def Info: five_s^4.png  used on input line 246.
 (pdftex.def)             Requested size: 186.69704pt x 106.89911pt.
 File: Tonbridge_School_logo.png Graphic file (type png)
 <use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 247.
+Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 246.
 (pdftex.def)             Requested size: 37.07169pt x 42.67912pt.
  [19
 
@@ -1145,11 +1145,11 @@ Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 247.
 <elegant_madness.png, id=549, 470.75874pt x 577.15625pt>
 File: elegant_madness.png Graphic file (type png)
 <use elegant_madness.png>
-Package pdftex.def Info: elegant_madness.png  used on input line 255.
+Package pdftex.def Info: elegant_madness.png  used on input line 254.
 (pdftex.def)             Requested size: 94.15007pt x 115.4292pt.
 File: Tonbridge_School_logo.png Graphic file (type png)
 <use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 255.
+Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 254.
 (pdftex.def)             Requested size: 37.07169pt x 42.67912pt.
  [20
 
@@ -1157,25 +1157,25 @@ Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 255.
 <sinh.png, id=577, 605.26125pt x 167.62625pt>
 File: sinh.png Graphic file (type png)
 <use sinh.png>
-Package pdftex.def Info: sinh.png  used on input line 263.
+Package pdftex.def Info: sinh.png  used on input line 262.
 (pdftex.def)             Requested size: 302.62987pt x 83.81291pt.
 File: Tonbridge_School_logo.png Graphic file (type png)
 <use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 263.
+Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 262.
 (pdftex.def)             Requested size: 37.07169pt x 42.67912pt.
  [21
 
  <./sinh.png>]
 File: Tonbridge_School_logo.png Graphic file (type png)
 <use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 268.
+Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 267.
 (pdftex.def)             Requested size: 37.07169pt x 42.67912pt.
  [22
 
 ]
 File: Tonbridge_School_logo.png Graphic file (type png)
 <use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 272.
+Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 271.
 (pdftex.def)             Requested size: 37.07169pt x 42.67912pt.
  [23
 
@@ -1183,18 +1183,18 @@ Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 272.
 <cloverleaf_motorway.png, id=657, 399.29175pt x 365.56575pt>
 File: cloverleaf_motorway.png Graphic file (type png)
 <use cloverleaf_motorway.png>
-Package pdftex.def Info: cloverleaf_motorway.png  used on input line 287.
+Package pdftex.def Info: cloverleaf_motorway.png  used on input line 286.
 (pdftex.def)             Requested size: 199.64539pt x 182.78242pt.
 File: Tonbridge_School_logo.png Graphic file (type png)
 <use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 287.
+Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 286.
 (pdftex.def)             Requested size: 37.07169pt x 42.67912pt.
  [24
 
  <./cloverleaf_motorway.png>]
 File: Tonbridge_School_logo.png Graphic file (type png)
 <use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 300.
+Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 299.
 (pdftex.def)             Requested size: 37.07169pt x 42.67912pt.
 
 [25
@@ -1202,7 +1202,7 @@ Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 300.
 ]
 File: Tonbridge_School_logo.png Graphic file (type png)
 <use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 304.
+Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 303.
 (pdftex.def)             Requested size: 37.07169pt x 42.67912pt.
  [26
 
@@ -1244,7 +1244,7 @@ sfonts/cm/cmsy10.pfb><C:/Users/maxmu/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/amsfonts/cm/cmsy6.pfb><C:/Users/maxmu/AppData/Local/Programs/MiKTeX/font
 s/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/maxmu/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Presentation.pdf (26 pages, 1460902 bytes).
+Output written on Presentation.pdf (26 pages, 1460928 bytes).
 PDF statistics:
  807 PDF objects out of 1000 (max. 8388607)
  53 named destinations out of 1000 (max. 500000)
