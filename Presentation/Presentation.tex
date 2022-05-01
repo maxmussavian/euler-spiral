@@ -263,11 +263,7 @@
 
 
 \begin{frame}{"Curvature determines the Curve"}
-	
-\end{frame}
-
-\begin{frame}{Diffraction and Fresnel Integrals}
-	
+Say something about the fundamental theorem of plane curves...	
 \end{frame}
 
 \begin{frame}{Designing Roads and Railways}
@@ -287,22 +283,91 @@
 
 \begin{frame}{Why Transition Curves are Euler Spirals}
 	\begin{itemize}
-	\item The acceleration along the transition is given by
+	\item The acceleration along the transition curve is given by
  	 \[
  	 a=s''(t) \vec{T}+\kappa s'(t)^2 \vec{N}
  	 \]
  	 Where $\vec{T}$ is the unit tangent vector and $\vec{N}$ is the unit normal vector.
  	 \item If the car/train is going round the curve at constant speed $s'(t)=constant$ and $s''(t)=0$.	
  	 \item The acceleration at constant speed only depends on the curvature $\kappa$ and speed $s'(t)$ in the direction of the normal vector.
-\end{itemize}
-
+	\end{itemize}
 \end{frame}
 
-\begin{frame}{The Racing Line}
+\begin{frame}{Case 1: Semicircular Curves}
+	A closed  track is made up of four segments.
+	\begin{enumerate}
+		\item A straight track of length 1km
+		\item A semicircular track of length 1km. This has radius $1,000 / \pi m \approx 318.31m$
+		\item A straight track of length 1km
+		\item A semicircular track of length 1km.
+	\end{enumerate}
+	Let the vehicle go around the track at a constant speed of $60 km/h = 16 \frac{2}{3} m/s$.
+\end{frame}
+
+\begin{frame}{Case 1: Position and Acceleration}
+	\begin{columns}
+		\begin{column}{0.8\textwidth}			
+			\begin{figure}
+				\caption{Position and Acceleration}
+				\centering
+				\includegraphics[width=70mm, scale=0.2]{circular_track.png}
+			\end{figure}
+		\end{column}
+		\begin{column}{0.33\textwidth}
+			Note: The acceleration is a step function. 
+			
+			
+			As a passenger you would feed the full centrifugal force pushing you outward the moment you entered the curve.			
+		\end{column}
+	\end{columns}
+\end{frame}
+
+
+\begin{frame}{Case 2: Euler Spiral Transition Curves}
+	\begin{itemize}
+		\item A closed track with same width and height. 
+		\item Replace semicircles with two parts of an Euler Spiral.
+		\item Recall that the curvature is proportional to arc length. $\kappa = \alpha s $ for some $\alpha$.
+		\item The width and height of an Euler Spiral that turns through $\pi/2$ is given by 
+		\begin{eqnarray*}
+			width &=& \sqrt{\pi / \alpha} C(1) \\
+			height &=& \sqrt{\pi /\alpha}S(1)
+		\end{eqnarray*}
+		where $S(z)=\int_{0}^{z}\sin \left( \pi t^2 / 2 \right) dt$ and $C(z)=\int_{0}^{z}\sin \left( \pi t^2 / 2 \right) dt$  is the standard Fresnel integrals.
+	
+	\end{itemize}
+	
+	\[
+	\alpha = \frac{\pi S(1)^2}{r^2} \approx 5.95 \times 10 ^{-6}
+	\]
 	
 \end{frame}
 
+\begin{frame}{Case 2: Euler Spiral Transition Curves}
+	\begin{columns}
+		\begin{column}{0.8\textwidth}			
+			\begin{figure}
+				\caption{Position and Acceleration}
+				\centering
+				\includegraphics[width=70mm, scale=0.2]{euler_track.png}
+			\end{figure}
+		\end{column}
+		\begin{column}{0.33\textwidth}
+			Note: The acceleration is a increases linearly as we move through the curve.
+			
+			The maximum acceleration however at the apex is greater than with the semicircular track. 
+					
+		\end{column}
+	\end{columns}
 
+\end{frame}
 
-
+\begin{frame}{Case 1 vs Case 2}
+	\begin{figure}
+		\caption{Curves Compared}
+		\centering
+		\includegraphics[width=70mm, scale=0.2]{circular_vs_euler_track.png}
+	\end{figure}
+	
+\end{frame}
 \end{document}
