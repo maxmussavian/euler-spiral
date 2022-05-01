@@ -2,8 +2,8 @@
 
 \usetheme{Copenhagen}
 
-\title{Cornu Spirals}
-\subtitle{From Euler to Ferrari}
+\title{The Euler Spiral}
+\subtitle{History, Discovery and Derivation}
 \author{Max Mussavian}
 \logo{\includegraphics[height=1.2cm]{Tonbridge_School_logo.png}}
 \date[2022]{Arcana, May 2022}
@@ -97,7 +97,7 @@
 	s = \int_{0}^{2 \pi} \sqrt{r^2 \sin^2 t + r^2 \cos^2 t}dt = \left[r \right]_{0}^{2 \pi} = 2 \pi r
 	\]
 	
-	\item Parabola: We can define a parabola as $x(t)=t$ and $y(t)=t^2$. The Arc Length between 0 and 1 is 
+	\item Parabola: We can define a parabola as $x(t)=t$ and $y(t)=t^2$. The arc length between 0 and 1 is 
 	\begin{eqnarray*}
 	s &=& \int_{0}^{1} \sqrt{1+4t^2}dt \\ &=& \left[\frac{1}{2} t\sqrt{1+ 4 t^2} +\frac{1}{4} \ln \left(2 t+\sqrt{1+ 4 t^2} \right) \right]_{0}^1 \\
 	&\approx&	 1.48
@@ -112,7 +112,7 @@
 		The curvature of curve is $\kappa$ given by
 		$\kappa=\frac{x' y'' - y' x''}{(x'^2+y'^2)^{3/2}}$
 	\end{definition}
-	Note: Curvature is signed in two dimensions. Positive curvature corresponds ``bending to the left'' while negative curvature ``bends to the right''.
+	Note: Curvature has a signed in 2 dimensions $\mathbb{R}^2$. Positive curvature corresponds ``bending to the left'' while negative curvature ``bends to the right''.
 \end{frame}
 
 \begin{frame}{Explaining Definition for Curvature}
@@ -244,7 +244,7 @@
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Solving integrals: Fresnel and Cornu}
+\begin{frame}{Solving the Integrals: Fresnel and Cornu}
 	\begin{itemize}
 		\item In 1818 Augustin Fresnel rediscovered these integrals when he investigated the diffraction of light through a slit. He showed that the intensity (under some assumptions) was 
 		\[
@@ -259,7 +259,7 @@
 \end{frame}
 
 
-\begin{frame}{Making a Plotter in Python}
+\begin{frame}{Solving the Integrals: Today with Python}
 	\begin{columns}
 		\begin{column}{0.5\textwidth}
 			\includegraphics[width=50mm, scale=0.5]{code_1.png}
@@ -267,7 +267,7 @@
 			\includegraphics[width=50mm, scale=0.5]{code_2.png}
 		\end{column}
 		\begin{column}{0.5\textwidth}
-		Now we can use computers and numerical methods to evaluate these integrals.
+		Nowadays we use computers and numerical methods to evaluate these integrals.
 			
 		\end{column}
 	\end{columns}
@@ -289,7 +289,7 @@
 	\centering
 	\includegraphics[width=70mm, scale=0.5]{euler_x_vs_y.png}
 	\end{figure}
-	These converge to $\pm \frac{\sqrt{\pi}}{2} \approx 0.8862$.
+	As expected these converge to $\pm \frac{\sqrt{\pi}}{2} \approx 0.8862$.
 \end{frame}
 
 \begin{frame}{Other Fun Curves: Even Powers of $s$}
@@ -335,20 +335,23 @@
 \begin{frame}{Another (Re)discovery of the Euler Spiral}
 	\begin{itemize}
 		\item As trains became faster in the 19th century, the Euler spiral was rediscovered by railway designers.
+		\item Railway engineers discovered that a track shape with gradually varying curvature provided a smooth riding experience.
+		\item In 1899 Railway engineer Arthur Talbot solved the problem mathematically and derived the same integrals as Fresnel.
+		\item His solution was ``a curve whose degree-of-curve increases directly along the curve."
+		\item He derived a series expansion for the integrals almost identical to Euler's 1744 series. 
 	\end{itemize}
 \end{frame}
 
 \begin{frame}{Designing Roads and Railways}
-	\begin{enumerate}
+	\begin{itemize}
 		\item Transition curves are used to link straight sections of motorways or railways.
-		\item They are designed to give passengers a smooth ride.
-		\item In particular so sudden changes in acceleration.
+		\item They are designed to give passengers a smooth ride with no sudden changes in acceleration.
 
-	\end{enumerate}
+	\end{itemize}
 		\begin{figure}
 		\caption{Cloverleaf Motorway Interchange}
 		\centering
-		\includegraphics[width=20mm, scale=0.5]{cloverleaf_motorway.png}
+		\includegraphics[width=50mm, scale=0.5]{cloverleaf_motorway.png}
 	\end{figure}
 
 \end{frame}
@@ -389,7 +392,7 @@
 			Note: The acceleration is a step function. 
 			
 			
-			As a passenger you would feed the full centrifugal force pushing you outward the moment you entered the curve.			
+			As a passenger you would feed the full centrifugal force pushing you outward the moment you entered the curve. 		
 		\end{column}
 	\end{columns}
 \end{frame}
@@ -405,7 +408,7 @@
 			width &=& \sqrt{\pi / \alpha} C(1) \\
 			height &=& \sqrt{\pi /\alpha}S(1)
 		\end{eqnarray*}
-		where $S(z)=\int_{0}^{z}\sin \left( \pi t^2 / 2 \right) dt$ and $C(z)=\int_{0}^{z}\sin \left( \pi t^2 / 2 \right) dt$  is the standard Fresnel integrals.
+		where $S(u)$ and $C(u)$ are the standard Fresnel integrals.
 	
 	\end{itemize}
 	
@@ -425,25 +428,23 @@
 			\end{figure}
 		\end{column}
 		\begin{column}{0.33\textwidth}
-			Note: The acceleration is a increases linearly as we move through the curve.
+			Note: The acceleration increases linearly as we move through the curve.
 			
-			The maximum acceleration however at the apex is greater than with the semicircular track. 
+			The maximum acceleration however at the apex is greater than with the semicircular track. But the ride is more comfortable now!
 					
 		\end{column}
 	\end{columns}
 
 \end{frame}
 
-\begin{frame}{Case 1 vs Case 2}
-	\begin{figure}
-		\caption{Curves Compared}
-		\centering
-		\includegraphics[width=70mm, scale=0.2]{circular_vs_euler_track.png}
-	\end{figure}
-	
-\end{frame}
 
-\begin{frame}
-	
+\begin{frame}{Summary}
+	\begin{itemize}
+		\item The Euler Spiral has the property that the curvature is proportional to the arc length.
+		\item It was first discovered by James Bernoulli in 1694 investigating the cantilever problem.
+		\item Euler derived Integrals for the x,y coordinates in 1744 which later became know as Fresnel integrals.
+		\item Rediscovered in the 19th century for designing railway and features of the spiral appear in modern day motorways.
+	\end{itemize}
+
 \end{frame}
 \end{document}
