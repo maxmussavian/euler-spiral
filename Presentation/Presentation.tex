@@ -5,7 +5,7 @@
 \title{Cornu Spirals}
 \subtitle{From Euler to Ferrari}
 \author{Max Mussavian}
-\logo{\includegraphics[height=1.5cm]{Tonbridge_School_logo.png}}
+\logo{\includegraphics[height=1.2cm]{Tonbridge_School_logo.png}}
 \date[2022]{Arcana, May 2022}
 \begin{document}
 \begin{frame}[plain]
@@ -13,24 +13,64 @@
 \end{frame}
 \begin{frame}{Outline}
 	\begin{itemize}
+		\item History of the Euler Spiral
 		\item Definitions: Curves, Lengths and Curvature
 		\item Relating the Curve Length to its Curvature
-		\item The Euler Spiral
-		\item Other Fun Curves
-		\item ``Curvature determines the Curve''
-		\item Application 1: Designing Roads and Railways
-		\item Application 2: The Racing Line
+		\item Calculating Fresnel Integrals and the Euler Spiral
+		\item Plotting the Euler Spiral and other Fun Curves
+		\item Another (Re)discovery: Designing Railways and Roads
 	\end{itemize}
 \end{frame}
 
+\begin{frame}{History: Bernoulli's Cantilever Problem}
+	\begin{itemize}
+	\item In 1694 James Bernoulli first studied the Cantilever Problem.
+	\item What shape does a thin horizontal beam of negligible mass fixed at one end with weight on the other have?
+	\item He called it an \emph{elastica}.
+	\item He also posed the converse problem: What shape must a pre-curved beam have in order to be horizontal and straight when a weight is added to the non fixed end?
+	\item He claimed $a^2=s R$ where $a$ is constant, $R$ is the radius of curvature and $s$ is arc length (more on this later).
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Euler's Solution}
+	\begin{columns}
+		\begin{column}{0.6\textwidth}
+			\begin{itemize}
+				\item In 1744 Euler gave the first solution and derived his curve. 
+				\item When the curve is horizontal the moment $M$ at any point is equal to the Force $F$ times the distance $s$ from the Force.
+				\item From elastic theory the curvature, $\kappa$ at that point is proportional to the moment.
+				\item Assuming the curve doesn't stretch the distance from the force is proportional to arc length.
+				\item Thus curvature is proportional to the arc length - the Euler Spiral!
+			\end{itemize}
+		\end{column}
+		\begin{column}{0.4\textwidth}
+			\begin{figure}[htp]
+				\centering
+				\includegraphics[width=50mm, scale=0.5]{elasticity_problem_Euler_Bernard.png}
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}{Euler's Original Spiral}
+	\begin{figure}[htp]
+		\caption{Reconstruction of Euler's original drawing with spiral superimposed}
+		\centering
+		\includegraphics[width=100mm, scale=0.5]{Eulers_original.png}
+	\end{figure}..
+\end{frame}
+
 \begin{frame}{What is a Curve?}
-	Before we begin note that everything we look at here is in 2 dimensions $\mathbb{R}^2$
-	\begin{definition}[A Parametric Curve]
-		A parametric curve is a twice differentiable function that has the form
-		$x = g(t)$ and $y=h(t)$ defined on an open interval $(a, b)$.
+	Let's define some of the concepts and derive the maths behind the Euler Spiral.
+	
+		\begin{definition}[A Parametric Curve]
+			A parametric curve is a smooth function that has the form
+			$x = g(t)$ and $y=h(t)$ defined on an open interval $(a, b)$.
 		
-		The set of points traced out by the curve is called the trace.
-	\end{definition}
+			The set of points traced out by the curve is called the trace.
+		\end{definition}
+		Note that everything we look at here is in 2 dimensions $\mathbb{R}^2$.
+	
 \end{frame}
 
 \begin{frame}{How Long is a Curve?}
@@ -38,12 +78,15 @@
 		The length of a curve $s$ is given by
 		$s = \int_{t_1}^{t_2} \sqrt{x'^2+y'^2}dt$
 	\end{definition}
-	Intuition: The velocity at time $t$ is $\left( \begin{array}{c}
-		x'(t)\\
-		y'(t)
-	\end{array} \right)$ and hence the speed at time $t$ is $\sqrt{x'(t)^2+y'(t)^2}$. Distance travelled (arc length) is the integral of speed with respect to time. 
+	\begin{itemize}
+		\item 	The velocity at time $t$ is $\left( \begin{array}{c}
+			x'(t)\\
+			y'(t)
+		\end{array} \right)$ and hence the speed at time $t$ is $\sqrt{x'(t)^2+y'(t)^2}$. Distance travelled (arc length) is the integral of speed with respect to time. 
+		
+		\item Approximate the trace by line segments. The total length of line segments converges to the arc length as the segments get smaller and smaller.
+	\end{itemize}
 
-	Alternatively approximate the trace by line segments. The length of line segments converges to the arc length as the segments get smaller and smaller.
 \end{frame}
 
 \begin{frame}{Some Simple Examples}
@@ -77,26 +120,29 @@
 		\begin{column}{0.4\textwidth}
 			\begin{figure}
 				\centering
-				\includegraphics[width=50mm, scale=0.5]{illustration.png}
+				\includegraphics[width=50mm, scale=0.4]{illustration.png}
 			\end{figure}
 		\end{column}
 		\begin{column}{0.6\textwidth}
-			For any circle with radius $r$ we have $s=r \theta$.
-			
-			Therefore for ``kissing'' circle 
-			$\frac{ds}{dt} = r \frac{d\theta}{dt}$
-			
-			But $\tan \theta = \frac{y'(t)}{x'(t)}$ and taking derivatives w.r.t. $t$ we have $\sec ^2 \theta \frac{d\theta}{dt} = \frac{x' y'' - y' x''}{x'^2}$.
-			
-			Further $\frac{1}{\cos^2 \theta} = \frac{x'^2+y'^2}{x'^2}$ therefore
-			$\frac{d\theta}{dt}=\frac{x' y'' - y' x''}{x'^2+y'^2}$
-			
-			From above $\frac{ds}{dt} = \sqrt{x'^2+y'^2}$.
-			
-			Combing gives us
-			$r= \frac{ds/dt}{d\theta/dt} =\frac{(x'^2+y'^2)^{3/2}}{x' y'' - y' x''}$
-			
-			Finally note $\kappa = \frac{1}{r}$
+			\begin{enumerate}
+				\item For any circle with radius $r$ we have $s=r \theta$ $\implies$ for ``kissing'' circle 
+				$\frac{ds}{dt} = r \frac{d\theta}{dt}$
+				
+				\item $\frac{ds}{dt} = \sqrt{x'^2+y'^2}$.
+				
+				\item $\tan \theta = \frac{y'(t)}{x'(t)}$ $\implies$ $\sec ^2 \theta \frac{d\theta}{dt} = \frac{x' y'' - y' x''}{x'^2}$.
+				
+				\item $\frac{1}{\cos^2 \theta} = \frac{x'^2+y'^2}{x'^2}$ $\implies$
+				$\frac{d\theta}{dt}=\frac{x' y'' - y' x''}{x'^2+y'^2}$
+				
+				
+				
+				\item Combing gives us
+				$r= \frac{ds/dt}{d\theta/dt} =\frac{(x'^2+y'^2)^{3/2}}{x' y'' - y' x''}$
+				
+				\item Finally $\kappa = \frac{1}{r}$
+				
+			\end{enumerate}
 			
 			
 			
@@ -144,7 +190,7 @@
 \end{frame}
 
 \begin{frame}{Define the Curve by Curve Length and Curvature}
-	We can get replace ``time'' variable $t$ by the curve length $s$.
+	We can replace the ``time'' variable $t$ by the arc length $s$.
 	 
 	And the curvature at point $t$ is $f'(t)$. Which means
 	 \[
@@ -155,7 +201,7 @@
 	x = x(s) &=& \int_{0}^{s} \cos \left( \int_0^u \kappa(t) dt \right) du \\
 	y = y(s) &=& \int_{0}^{s} \sin \left( \int_0^u \kappa(t) dt \right) du
 	\end{eqnarray*}
-	Hence the curve is defined by curve length and curvature alone.
+	Hence the curve is defined by arc length and curvature alone.
 \end{frame}
 
 \begin{frame}{A Very Simple Example}
@@ -171,7 +217,7 @@
 
 
 \begin{frame}{The Euler Spiral}
-	A more interesting example is the curvature equal to the arc length. 
+	Recall: Euler defined his curve as one where the curvature is proportional to arc length.
 	
 	\begin{center}
 		\boxed{\kappa(s) = s}
@@ -182,10 +228,36 @@
 		x = x(s) &=& \int_{0}^{s} \cos \frac{u^2}{2} du\\
 		y = y(s) &=& \int_{0}^{s} \sin \frac{u^2}{2} du
 	\end{eqnarray*}
-	These integrals are called ``Fresnel Integrals''. 
-	
-	They cannot be solved analytically. But what do they look like numerically?
+
+	But since these integrals can't be solved analytically how were they calculated?
 \end{frame}
+
+\begin{frame}{Solving the Integrals: Euler}
+	\begin{itemize}
+		\item In 1744 Euler derived these integrals.
+		\includegraphics[width=50mm, scale=0.5]{euler_scripture_1.png}	
+		\item He derived a series expansion which is still a viable method for small $s$.
+		
+		\includegraphics[width=100mm, scale=0.7]{euler_scripture.png}
+		
+		\item In 1781 he proved the integrals for limits between 0 and $\infty$ are equal to  $\frac{a \sqrt{\pi}}{2}$ 
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Solving integrals: Fresnel and Cornu}
+	\begin{itemize}
+		\item In 1818 Augustin Fresnel rediscovered these integrals when he investigated the diffraction of light through a slit. He showed that the intensity (under some assumptions) was 
+		\[
+		\left( \int_{0}^{s}\cos \left( \pi t^2 / 2 \right) dt \right) ^2 + 
+		\left( \int_{0}^{s}\sin \left( \pi t^2 / 2 \right) dt \right) ^2
+		\] 
+		\item Up to a factor of $\pi$ the integrals are the same as the ones Euler derived.
+		\item These integrals are now called the \emph{Fresnel Integrals}.
+		\item Fresnel calculated them for values of $s$ between 0.1 and 5.1.
+		\item In 1874 Alfred Cornu calculated values and plotted the Euler spiral accurately. Hence the Euler spiral is also known as a Cornu spiral.
+	\end{itemize}
+\end{frame}
+
 
 \begin{frame}{Making a Plotter in Python}
 	\begin{columns}
@@ -195,8 +267,7 @@
 			\includegraphics[width=50mm, scale=0.5]{code_2.png}
 		\end{column}
 		\begin{column}{0.5\textwidth}
-			First write functions to calculate x and y coordinates 
-			More words here
+		Now we can use computers and numerical methods to evaluate these integrals.
 			
 		\end{column}
 	\end{columns}
@@ -261,9 +332,10 @@
 	\end{figure}
 \end{frame}
 
-
-\begin{frame}{"Curvature determines the Curve"}
-Say something about the fundamental theorem of plane curves...	
+\begin{frame}{Another (Re)discovery of the Euler Spiral}
+	\begin{itemize}
+		\item As trains became faster in the 19th century, the Euler spiral was rediscovered by railway designers.
+	\end{itemize}
 \end{frame}
 
 \begin{frame}{Designing Roads and Railways}
@@ -368,6 +440,10 @@ Say something about the fundamental theorem of plane curves...
 		\centering
 		\includegraphics[width=70mm, scale=0.2]{circular_vs_euler_track.png}
 	\end{figure}
+	
+\end{frame}
+
+\begin{frame}
 	
 \end{frame}
 \end{document}
