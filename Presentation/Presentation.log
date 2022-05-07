@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.30)  1 MAY 2022 19:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.30)  5 MAY 2022 15:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -771,24 +771,24 @@ File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 ) (Presentation.aux)
 \openout1 = `Presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -850,7 +850,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 10.
+Package hyperref Info: Link coloring OFF on input line 8.
 
 (C:\Users\maxmu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -864,65 +864,65 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count340
 )
-LaTeX Info: Redefining \ref on input line 10.
-LaTeX Info: Redefining \pageref on input line 10.
-LaTeX Info: Redefining \nameref on input line 10.
+LaTeX Info: Redefining \ref on input line 8.
+LaTeX Info: Redefining \pageref on input line 8.
+LaTeX Info: Redefining \nameref on input line 8.
  (Presentation.out) (Presentation.out)
 \@outlinefile=\write5
 \openout5 = `Presentation.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 10.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 8.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 10.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 8.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 10.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 10.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 10.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 10.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 8.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 10.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 10.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 10.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 8.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 10.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 10.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 10.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 8.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 10.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 10.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 8.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 10.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 8.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 10.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 10.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 10.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 10.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 10.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 10.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 10.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 8.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 8.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 1
-0.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 8
+.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 1
-0.
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 8
+.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 10.
+ut line 8.
 
 (C:\Users\maxmu\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
 asic-dictionary-English.dict
@@ -949,15 +949,9 @@ heorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (Presentation.nav) [1
 
-{C:/Users/maxmu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<Tonbridge_School_logo.png, id=45, 119.44624pt x 137.51375pt>
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 23.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
- [2
+{C:/Users/maxmu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2
 
- <./Tonbridge_School_logo.png>]
+]
 LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
 
 
@@ -977,335 +971,209 @@ ut line 33.
 erncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-)
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 33.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
- [3
+) [3
 
 ]
-<elasticity_problem_Euler_Bernard.png, id=103, 305.943pt x 271.0125pt>
-File: elasticity_problem_Euler_Bernard.png Graphic file (type png)
-<use elasticity_problem_Euler_Bernard.png>
-Package pdftex.def Info: elasticity_problem_Euler_Bernard.png  used on input li
-ne 53.
-(pdftex.def)             Requested size: 152.97112pt x 135.5059pt.
+<arc_length_integral.png, id=103, 390.258pt x 314.3745pt>
+File: arc_length_integral.png Graphic file (type png)
+<use arc_length_integral.png>
+Package pdftex.def Info: arc_length_integral.png  used on input line 45.
+(pdftex.def)             Requested size: 156.10042pt x 125.74756pt.
+ [4
 
-Overfull \hbox (19.35028pt too wide) in paragraph at lines 53--53
- [] 
- []
+ <./arc_length_integral.png>] [5
 
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 53.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
-[4
-
- <./elasticity_problem_Euler_Bernard.png>]
-<Eulers_original.png, id=132, 383.031pt x 205.36725pt>
-File: Eulers_original.png Graphic file (type png)
-<use Eulers_original.png>
-Package pdftex.def Info: Eulers_original.png  used on input line 61.
-(pdftex.def)             Requested size: 191.51503pt x 102.68336pt.
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 61.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
- [5
-
- <./Eulers_original.png>]
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 74.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
-
-[6
+] [6
 
 ]
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 90.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
+<Arc length Integral.png, id=189, 317.38576pt x 199.947pt>
+File: Arc length Integral.png Graphic file (type png)
+<use Arc length Integral.png>
+Package pdftex.def Info: Arc length Integral.png  used on input line 78.
+(pdftex.def)             Requested size: 126.95204pt x 79.97737pt.
  [7
 
-]
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 107.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
- [8
-
-]
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 116.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
- [9
-
-]
-<illustration.png, id=275, 195.73125pt x 232.61906pt>
+ <./Arc length Integral.png>]
+<illustration.png, id=219, 195.73125pt x 232.61906pt>
 File: illustration.png Graphic file (type png)
 <use illustration.png>
-Package pdftex.def Info: illustration.png  used on input line 153.
+Package pdftex.def Info: illustration.png  used on input line 106.
 (pdftex.def)             Requested size: 78.2911pt x 93.04596pt.
 
-Overfull \hbox (19.36726pt too wide) in paragraph at lines 153--153
+Overfull \hbox (19.36726pt too wide) in paragraph at lines 106--106
  [] 
  []
 
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 153.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
-[10
+[8
 
- <./illustration.png>]
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 168.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
- [11
+ <./illustration.png>] [9
 
 ]
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 181.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
+<Curvature_circle.png, id=275, 376.40625pt x 282.05376pt>
+File: Curvature_circle.png Graphic file (type png)
+<use Curvature_circle.png>
+Package pdftex.def Info: Curvature_circle.png  used on input line 132.
+(pdftex.def)             Requested size: 150.55983pt x 112.81949pt.
+ [10
+
+ <./Curvature_circle.png>] [11
+
+]
+<Parabola_Arc_Length.png, id=329, 641.39626pt x 370.38374pt>
+File: Parabola_Arc_Length.png Graphic file (type png)
+<use Parabola_Arc_Length.png>
+Package pdftex.def Info: Parabola_Arc_Length.png  used on input line 166.
+(pdftex.def)             Requested size: 256.55396pt x 148.15086pt.
  [12
 
-]
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 190.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
+ <./Parabola_Arc_Length.png>]
+<Parabola.png, id=357, 654.64575pt x 339.06676pt>
+File: Parabola.png Graphic file (type png)
+<use Parabola.png>
+Package pdftex.def Info: Parabola.png  used on input line 183.
+(pdftex.def)             Requested size: 261.85365pt x 135.62428pt.
  [13
 
-]
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 205.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
- [14
+ <./Parabola.png>] [14
+
+] [15
+
+] [16
+
+] [17
+
+] [18
 
 ]
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 216.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
- [15
-
-]
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 233.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
- [16
-
-]
-<euler_scripture_1.png, id=460, 225.84375pt x 34.9305pt>
+<euler_scripture_1.png, id=516, 225.84375pt x 34.9305pt>
 File: euler_scripture_1.png Graphic file (type png)
 <use euler_scripture_1.png>
-Package pdftex.def Info: euler_scripture_1.png  used on input line 245.
+Package pdftex.def Info: euler_scripture_1.png  used on input line 260.
 (pdftex.def)             Requested size: 112.92159pt x 17.4652pt.
-<euler_scripture.png, id=461, 495.0495pt x 76.48575pt>
+<euler_scripture.png, id=517, 495.0495pt x 76.48575pt>
 File: euler_scripture.png Graphic file (type png)
 <use euler_scripture.png>
-Package pdftex.def Info: euler_scripture.png  used on input line 245.
+Package pdftex.def Info: euler_scripture.png  used on input line 260.
 (pdftex.def)             Requested size: 346.53227pt x 53.53963pt.
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 245.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
- [17
-
- <./euler_scripture_1.png> <./euler_scripture.png>]
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 259.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
- [18
-
-]
-<code_1.png, id=516, 333.04425pt x 177.66376pt>
-File: code_1.png Graphic file (type png)
-<use code_1.png>
-Package pdftex.def Info: code_1.png  used on input line 274.
-(pdftex.def)             Requested size: 166.52171pt x 88.83165pt.
-<code_2.png, id=517, 533.5935pt x 235.47975pt>
-File: code_2.png Graphic file (type png)
-<use code_2.png>
-Package pdftex.def Info: code_2.png  used on input line 274.
-(pdftex.def)             Requested size: 266.7961pt x 117.73958pt.
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 274.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
  [19
 
- <./code_1.png> <./code_2.png>]
-<euler_spiral.png, id=547, 290.08376pt x 248.93pt>
-File: euler_spiral.png Graphic file (type png)
-<use euler_spiral.png>
-Package pdftex.def Info: euler_spiral.png  used on input line 284.
-(pdftex.def)             Requested size: 145.04152pt x 124.46469pt.
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 284.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
+ <./euler_scripture_1.png> <./euler_scripture.png>] [20
 
-[20
-
- <./euler_spiral.png>]
-<euler_x_vs_y.png, id=575, 395.4775pt x 265.99374pt>
-File: euler_x_vs_y.png Graphic file (type png)
-<use euler_x_vs_y.png>
-Package pdftex.def Info: euler_x_vs_y.png  used on input line 293.
-(pdftex.def)             Requested size: 197.73827pt x 132.99654pt.
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 293.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
+]
+<code_1.png, id=573, 333.04425pt x 177.66376pt>
+File: code_1.png Graphic file (type png)
+<use code_1.png>
+Package pdftex.def Info: code_1.png  used on input line 287.
+(pdftex.def)             Requested size: 166.52171pt x 88.83165pt.
+<code_2.png, id=574, 533.5935pt x 235.47975pt>
+File: code_2.png Graphic file (type png)
+<use code_2.png>
+Package pdftex.def Info: code_2.png  used on input line 287.
+(pdftex.def)             Requested size: 266.7961pt x 117.73958pt.
  [21
 
- <./euler_x_vs_y.png>]
-<chaise_longue.png, id=604, 597.23125pt x 199.74625pt>
-File: chaise_longue.png Graphic file (type png)
-<use chaise_longue.png>
-Package pdftex.def Info: chaise_longue.png  used on input line 301.
-(pdftex.def)             Requested size: 298.61488pt x 99.87288pt.
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 301.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
+ <./code_1.png> <./code_2.png>]
+<euler_x_vs_y.png, id=603, 395.4775pt x 265.99374pt>
+File: euler_x_vs_y.png Graphic file (type png)
+<use euler_x_vs_y.png>
+Package pdftex.def Info: euler_x_vs_y.png  used on input line 296.
+(pdftex.def)             Requested size: 197.73827pt x 132.99654pt.
  [22
 
- <./chaise_longue.png>]
-<s_squared_minus_219.png, id=632, 160.6pt x 248.93pt>
-File: s_squared_minus_219.png Graphic file (type png)
-<use s_squared_minus_219.png>
-Package pdftex.def Info: s_squared_minus_219.png  used on input line 309.
-(pdftex.def)             Requested size: 32.11942pt x 49.78511pt.
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 309.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
+ <./euler_x_vs_y.png>]
+<euler_spiral.png, id=632, 290.08376pt x 248.93pt>
+File: euler_spiral.png Graphic file (type png)
+<use euler_spiral.png>
+Package pdftex.def Info: euler_spiral.png  used on input line 305.
+(pdftex.def)             Requested size: 145.04152pt x 124.46469pt.
+ [23
 
-[23
-
- <./s_squared_minus_219.png>]
-<five_s^4.png, id=660, 373.395pt x 213.79875pt>
-File: five_s^4.png Graphic file (type png)
-<use five_s^4.png>
-Package pdftex.def Info: five_s^4.png  used on input line 317.
-(pdftex.def)             Requested size: 186.69704pt x 106.89911pt.
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 317.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
+ <./euler_spiral.png>]
+<Euler_first_drawing.png, id=660, 487.8225pt x 421.575pt>
+File: Euler_first_drawing.png Graphic file (type png)
+<use Euler_first_drawing.png>
+Package pdftex.def Info: Euler_first_drawing.png  used on input line 323.
+(pdftex.def)             Requested size: 122.9164pt x 106.2233pt.
+<Euler second drawing.png, id=661, 248.72925pt x 211.992pt>
+File: Euler second drawing.png Graphic file (type png)
+<use Euler second drawing.png>
+Package pdftex.def Info: Euler second drawing.png  used on input line 323.
+(pdftex.def)             Requested size: 138.2795pt x 117.8575pt.
  [24
 
- <./five_s^4.png>]
-<elegant_madness.png, id=688, 470.75874pt x 577.15625pt>
-File: elegant_madness.png Graphic file (type png)
-<use elegant_madness.png>
-Package pdftex.def Info: elegant_madness.png  used on input line 325.
-(pdftex.def)             Requested size: 94.15007pt x 115.4292pt.
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 325.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
+ <./Euler_first_drawing.png> <./Euler second drawing.png>]
+<chaise_longue.png, id=691, 597.23125pt x 199.74625pt>
+File: chaise_longue.png Graphic file (type png)
+<use chaise_longue.png>
+Package pdftex.def Info: chaise_longue.png  used on input line 331.
+(pdftex.def)             Requested size: 298.61488pt x 99.87288pt.
  [25
 
- <./elegant_madness.png>]
-<sinh.png, id=717, 605.26125pt x 167.62625pt>
-File: sinh.png Graphic file (type png)
-<use sinh.png>
-Package pdftex.def Info: sinh.png  used on input line 333.
-(pdftex.def)             Requested size: 302.62987pt x 83.81291pt.
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 333.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
+ <./chaise_longue.png>]
+<s_squared_minus_219.png, id=720, 160.6pt x 248.93pt>
+File: s_squared_minus_219.png Graphic file (type png)
+<use s_squared_minus_219.png>
+Package pdftex.def Info: s_squared_minus_219.png  used on input line 339.
+(pdftex.def)             Requested size: 32.11942pt x 49.78511pt.
  [26
 
- <./sinh.png>]
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 343.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
+ <./s_squared_minus_219.png>]
+<five_s^4.png, id=748, 373.395pt x 213.79875pt>
+File: five_s^4.png Graphic file (type png)
+<use five_s^4.png>
+Package pdftex.def Info: five_s^4.png  used on input line 347.
+(pdftex.def)             Requested size: 186.69704pt x 106.89911pt.
  [27
 
-]
-<cloverleaf_motorway.png, id=771, 399.29175pt x 365.56575pt>
-File: cloverleaf_motorway.png Graphic file (type png)
-<use cloverleaf_motorway.png>
-Package pdftex.def Info: cloverleaf_motorway.png  used on input line 357.
-(pdftex.def)             Requested size: 199.64539pt x 182.78242pt.
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 357.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
+ <./five_s^4.png>]
+<elegant_madness.png, id=776, 470.75874pt x 577.15625pt>
+File: elegant_madness.png Graphic file (type png)
+<use elegant_madness.png>
+Package pdftex.def Info: elegant_madness.png  used on input line 355.
+(pdftex.def)             Requested size: 94.15007pt x 115.4292pt.
  [28
 
- <./cloverleaf_motorway.png>]
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 369.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
+ <./elegant_madness.png>]
+<sinh.png, id=804, 605.26125pt x 167.62625pt>
+File: sinh.png Graphic file (type png)
+<use sinh.png>
+Package pdftex.def Info: sinh.png  used on input line 363.
+(pdftex.def)             Requested size: 302.62987pt x 83.81291pt.
  [29
 
-]
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 380.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
- [30
+ <./sinh.png>] [30
 
 ]
-<circular_track.png, id=851, 507.8975pt x 469.755pt>
-File: circular_track.png Graphic file (type png)
-<use circular_track.png>
-Package pdftex.def Info: circular_track.png  used on input line 398.
-(pdftex.def)             Requested size: 101.5777pt x 93.94933pt.
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 398.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
+<cloverleaf_motorway.png, id=858, 399.29175pt x 365.56575pt>
+File: cloverleaf_motorway.png Graphic file (type png)
+<use cloverleaf_motorway.png>
+Package pdftex.def Info: cloverleaf_motorway.png  used on input line 387.
+(pdftex.def)             Requested size: 199.64539pt x 182.78242pt.
  [31
 
- <./circular_track.png>]
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 419.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
- [32
+ <./cloverleaf_motorway.png>] [32
+
+] [33
 
 ]
-<euler_track.png, id=906, 511.9125pt x 469.755pt>
-File: euler_track.png Graphic file (type png)
-<use euler_track.png>
-Package pdftex.def Info: euler_track.png  used on input line 438.
-(pdftex.def)             Requested size: 102.38068pt x 93.94933pt.
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 438.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
- [33
-
- <./euler_track.png>]
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 448.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
+<circular_track.png, id=939, 507.8975pt x 469.755pt>
+File: circular_track.png Graphic file (type png)
+<use circular_track.png>
+Package pdftex.def Info: circular_track.png  used on input line 428.
+(pdftex.def)             Requested size: 101.5777pt x 93.94933pt.
  [34
 
+ <./circular_track.png>] [35
+
 ]
-File: Tonbridge_School_logo.png Graphic file (type png)
-<use Tonbridge_School_logo.png>
-Package pdftex.def Info: Tonbridge_School_logo.png  used on input line 454.
-(pdftex.def)             Requested size: 29.65735pt x 34.14322pt.
- [35
+<euler_track.png, id=993, 511.9125pt x 469.755pt>
+File: euler_track.png Graphic file (type png)
+<use euler_track.png>
+Package pdftex.def Info: euler_track.png  used on input line 468.
+(pdftex.def)             Requested size: 102.38068pt x 93.94933pt.
+ [36
+
+ <./euler_track.png>] [37
 
 ]
 \tf@nav=\write6
@@ -1322,13 +1190,13 @@ Package rerunfilecheck Info: File `Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22034 strings out of 478582
- 437337 string characters out of 2844344
- 686169 words of memory out of 3000000
- 39670 multiletter control sequences out of 15000+600000
+ 22074 strings out of 478582
+ 438083 string characters out of 2844344
+ 677741 words of memory out of 3000000
+ 39700 multiletter control sequences out of 15000+600000
  481809 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,122p,418b,827s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 128i,15n,122p,418b,637s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/maxmu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmex10.pfb><C:/Users/maxmu/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmmi10.pfb><C:/Users/maxmu/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -1345,9 +1213,9 @@ sfonts/cm/cmsy10.pfb><C:/Users/maxmu/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/amsfonts/cm/cmsy6.pfb><C:/Users/maxmu/AppData/Local/Programs/MiKTeX/font
 s/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/maxmu/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Presentation.pdf (35 pages, 1782818 bytes).
+Output written on Presentation.pdf (37 pages, 1896549 bytes).
 PDF statistics:
- 1060 PDF objects out of 1200 (max. 8388607)
- 71 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1126 PDF objects out of 1200 (max. 8388607)
+ 77 named destinations out of 1000 (max. 500000)
+ 165 words of extra memory for PDF output out of 10000 (max. 10000000)
 
