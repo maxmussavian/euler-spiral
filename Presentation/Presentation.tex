@@ -82,7 +82,7 @@
 \begin{frame}{Arc length integral}
 	\begin{theorem}[Arc Length]
 		The arc length between two points the curve for T = a and T = b is given by
-		S = $\int_{a}^{b} \sqrt{\left(\frac{dy}{dt}\right)^2+\left(\frac{dx}{dt}\right)^2}dt$
+		S = $\int_{a}^{b} \sqrt{\left( \frac{dy}{dt} \right)^2 + \left( \frac{dx}{dt} \right)^2}dt$
 	\end{theorem}
 	\begin{figure}
 		\centering
@@ -134,7 +134,7 @@
 			\begin{itemize}
 				\item $\tan \theta = \frac{y'(t)}{x'(t)}$ 
 				\item Differentiate w.r.t. $t$ gives $\sec ^2 \theta \frac{d\theta}{dt} = \frac{x'(t) y''(t) - y'(t) x''(t)}{(x'(t))^2}$
-				where $x''(t)=\frac{d^2 x}{dt^2}$ and $x''(t)=\frac{d^2 y}{dt^2}$
+				where $x''(t)=\frac{d^2 x}{dt^2}$ and $y''(t)=\frac{d^2 y}{dt^2}$
 				\item $sec^2\theta = tan^2\theta +1 = \frac{{(x'(t))^2+(y'(t))^2}}{(x'(t))^2}$ 
 				\item Therefore
 				\begin{equation} \label{eq:2}
@@ -150,8 +150,8 @@
 	\begin{itemize}
 		\item Combining equations \ref{eq:1} and \ref{eq:2} gives us
 		\begin{eqnarray*}
-			1/r &=& \frac{d\theta/dt}{ds/dt}  \\
-			    &=& d\theta/ds \\
+			\frac1r &=& \frac{d\theta/dt}{ds/dt}  \\
+			    &=& \frac{d\theta}{ds} \\
 			    &=& \frac{x'(t) y''(t) - y'(t) x''(t)}{\left( (x'(t))^2 + (y'(t))^2 \right)^{3/2}}
 		\end{eqnarray*}
 		

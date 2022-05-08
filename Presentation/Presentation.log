@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.30)  8 MAY 2022 22:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.30)  8 MAY 2022 22:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1203,10 +1203,10 @@ Package rerunfilecheck Info: File `Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22091 strings out of 478582
- 438427 string characters out of 2844344
+ 22089 strings out of 478582
+ 438411 string characters out of 2844344
  679788 words of memory out of 3000000
- 39711 multiletter control sequences out of 15000+600000
+ 39709 multiletter control sequences out of 15000+600000
  482103 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,418b,637s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1227,7 +1227,7 @@ amsfonts/cm/cmssi8.pfb><C:/Users/maxmu/AppData/Local/Programs/MiKTeX/fonts/type
 onts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/maxmu/AppData/Local/Programs/
 MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/maxmu/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Presentation.pdf (38 pages, 2013449 bytes).
+Output written on Presentation.pdf (38 pages, 2013498 bytes).
 PDF statistics:
  1164 PDF objects out of 1200 (max. 8388607)
  81 named destinations out of 1000 (max. 500000)
