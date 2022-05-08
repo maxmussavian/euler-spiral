@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.30)  5 MAY 2022 15:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.30)  8 MAY 2022 22:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -952,20 +952,20 @@ Dictionary: translator-theorem-dictionary, Language: English
 {C:/Users/maxmu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
 
 
 (C:\Users\maxmu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
 
 
 (C:\Users\maxmu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 33.
+ut line 31.
 
 (C:\Users\maxmu\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathk
 erncmss.fd
@@ -974,69 +974,77 @@ thkerncmss.
 ) [3
 
 ]
-<arc_length_integral.png, id=103, 390.258pt x 314.3745pt>
-File: arc_length_integral.png Graphic file (type png)
-<use arc_length_integral.png>
-Package pdftex.def Info: arc_length_integral.png  used on input line 45.
-(pdftex.def)             Requested size: 156.10042pt x 125.74756pt.
+<curve_length_2.png, id=104, 557.9244pt x 284.0211pt>
+File: curve_length_2.png Graphic file (type png)
+<use curve_length_2.png>
+Package pdftex.def Info: curve_length_2.png  used on input line 42.
+(pdftex.def)             Requested size: 223.1658pt x 113.60641pt.
  [4
 
- <./arc_length_integral.png>] [5
+ <./curve_length_2.png>] [5
 
 ] [6
 
 ]
-<Arc length Integral.png, id=189, 317.38576pt x 199.947pt>
+<Arc length Integral.png, id=190, 317.38576pt x 199.947pt>
 File: Arc length Integral.png Graphic file (type png)
 <use Arc length Integral.png>
-Package pdftex.def Info: Arc length Integral.png  used on input line 78.
+Package pdftex.def Info: Arc length Integral.png  used on input line 91.
 (pdftex.def)             Requested size: 126.95204pt x 79.97737pt.
  [7
 
  <./Arc length Integral.png>]
-<illustration.png, id=219, 195.73125pt x 232.61906pt>
-File: illustration.png Graphic file (type png)
-<use illustration.png>
-Package pdftex.def Info: illustration.png  used on input line 106.
-(pdftex.def)             Requested size: 78.2911pt x 93.04596pt.
+<curvature_illustration.png, id=219, 332.08064pt x 357.37515pt>
+File: curvature_illustration.png Graphic file (type png)
+<use curvature_illustration.png>
+Package pdftex.def Info: curvature_illustration.png  used on input line 122.
+(pdftex.def)             Requested size: 132.8299pt x 142.94753pt.
 
-Overfull \hbox (19.36726pt too wide) in paragraph at lines 106--106
+Overfull \hbox (19.3507pt too wide) in paragraph at lines 122--122
  [] 
  []
 
 [8
 
- <./illustration.png>] [9
+ <./curvature_illustration.png>]
+<curvature_illustration_2.png, id=249, 199.947pt x 226.446pt>
+File: curvature_illustration_2.png Graphic file (type png)
+<use curvature_illustration_2.png>
+Package pdftex.def Info: curvature_illustration_2.png  used on input line 147.
+(pdftex.def)             Requested size: 59.98456pt x 67.93431pt.
+ [9
+
+ <./curvature_illustration_2.png>]
+[10
 
 ]
-<Curvature_circle.png, id=275, 376.40625pt x 282.05376pt>
+<Curvature_circle.png, id=308, 376.40625pt x 282.05376pt>
 File: Curvature_circle.png Graphic file (type png)
 <use Curvature_circle.png>
-Package pdftex.def Info: Curvature_circle.png  used on input line 132.
+Package pdftex.def Info: Curvature_circle.png  used on input line 172.
 (pdftex.def)             Requested size: 150.55983pt x 112.81949pt.
- [10
+ [11
 
- <./Curvature_circle.png>] [11
+ <./Curvature_circle.png>] [12
 
 ]
-<Parabola_Arc_Length.png, id=329, 641.39626pt x 370.38374pt>
+<Parabola_Arc_Length.png, id=362, 641.39626pt x 370.38374pt>
 File: Parabola_Arc_Length.png Graphic file (type png)
 <use Parabola_Arc_Length.png>
-Package pdftex.def Info: Parabola_Arc_Length.png  used on input line 166.
+Package pdftex.def Info: Parabola_Arc_Length.png  used on input line 206.
 (pdftex.def)             Requested size: 256.55396pt x 148.15086pt.
- [12
-
- <./Parabola_Arc_Length.png>]
-<Parabola.png, id=357, 654.64575pt x 339.06676pt>
-File: Parabola.png Graphic file (type png)
-<use Parabola.png>
-Package pdftex.def Info: Parabola.png  used on input line 183.
-(pdftex.def)             Requested size: 261.85365pt x 135.62428pt.
  [13
 
- <./Parabola.png>] [14
+ <./Parabola_Arc_Length.png>]
+<Parabola.png, id=391, 654.64575pt x 339.06676pt>
+File: Parabola.png Graphic file (type png)
+<use Parabola.png>
+Package pdftex.def Info: Parabola.png  used on input line 223.
+(pdftex.def)             Requested size: 261.85365pt x 135.62428pt.
 
-] [15
+[14
+
+ <./Parabola.png>] [15
 
 ] [16
 
@@ -1044,136 +1052,141 @@ Package pdftex.def Info: Parabola.png  used on input line 183.
 
 ] [18
 
+] [19
+
 ]
-<euler_scripture_1.png, id=516, 225.84375pt x 34.9305pt>
+<euler_scripture_1.png, id=550, 225.84375pt x 34.9305pt>
 File: euler_scripture_1.png Graphic file (type png)
 <use euler_scripture_1.png>
-Package pdftex.def Info: euler_scripture_1.png  used on input line 260.
+Package pdftex.def Info: euler_scripture_1.png  used on input line 300.
 (pdftex.def)             Requested size: 112.92159pt x 17.4652pt.
-<euler_scripture.png, id=517, 495.0495pt x 76.48575pt>
+<euler_scripture.png, id=551, 495.0495pt x 76.48575pt>
 File: euler_scripture.png Graphic file (type png)
 <use euler_scripture.png>
-Package pdftex.def Info: euler_scripture.png  used on input line 260.
+Package pdftex.def Info: euler_scripture.png  used on input line 300.
 (pdftex.def)             Requested size: 346.53227pt x 53.53963pt.
- [19
+ [20
 
- <./euler_scripture_1.png> <./euler_scripture.png>] [20
+ <./euler_scripture_1.png> <./euler_scripture.png>] [21
 
 ]
-<code_1.png, id=573, 333.04425pt x 177.66376pt>
+<code_1.png, id=606, 333.04425pt x 177.66376pt>
 File: code_1.png Graphic file (type png)
 <use code_1.png>
-Package pdftex.def Info: code_1.png  used on input line 287.
+Package pdftex.def Info: code_1.png  used on input line 327.
 (pdftex.def)             Requested size: 166.52171pt x 88.83165pt.
-<code_2.png, id=574, 533.5935pt x 235.47975pt>
+<code_2.png, id=607, 533.5935pt x 235.47975pt>
 File: code_2.png Graphic file (type png)
 <use code_2.png>
-Package pdftex.def Info: code_2.png  used on input line 287.
+Package pdftex.def Info: code_2.png  used on input line 327.
 (pdftex.def)             Requested size: 266.7961pt x 117.73958pt.
- [21
-
- <./code_1.png> <./code_2.png>]
-<euler_x_vs_y.png, id=603, 395.4775pt x 265.99374pt>
-File: euler_x_vs_y.png Graphic file (type png)
-<use euler_x_vs_y.png>
-Package pdftex.def Info: euler_x_vs_y.png  used on input line 296.
-(pdftex.def)             Requested size: 197.73827pt x 132.99654pt.
  [22
 
- <./euler_x_vs_y.png>]
-<euler_spiral.png, id=632, 290.08376pt x 248.93pt>
-File: euler_spiral.png Graphic file (type png)
-<use euler_spiral.png>
-Package pdftex.def Info: euler_spiral.png  used on input line 305.
-(pdftex.def)             Requested size: 145.04152pt x 124.46469pt.
+ <./code_1.png> <./code_2.png>]
+<euler_x_vs_y.png, id=636, 395.4775pt x 265.99374pt>
+File: euler_x_vs_y.png Graphic file (type png)
+<use euler_x_vs_y.png>
+Package pdftex.def Info: euler_x_vs_y.png  used on input line 336.
+(pdftex.def)             Requested size: 197.73827pt x 132.99654pt.
  [23
 
- <./euler_spiral.png>]
-<Euler_first_drawing.png, id=660, 487.8225pt x 421.575pt>
-File: Euler_first_drawing.png Graphic file (type png)
-<use Euler_first_drawing.png>
-Package pdftex.def Info: Euler_first_drawing.png  used on input line 323.
-(pdftex.def)             Requested size: 122.9164pt x 106.2233pt.
-<Euler second drawing.png, id=661, 248.72925pt x 211.992pt>
-File: Euler second drawing.png Graphic file (type png)
-<use Euler second drawing.png>
-Package pdftex.def Info: Euler second drawing.png  used on input line 323.
-(pdftex.def)             Requested size: 138.2795pt x 117.8575pt.
+ <./euler_x_vs_y.png>]
+<euler_spiral.png, id=665, 290.08376pt x 248.93pt>
+File: euler_spiral.png Graphic file (type png)
+<use euler_spiral.png>
+Package pdftex.def Info: euler_spiral.png  used on input line 345.
+(pdftex.def)             Requested size: 145.04152pt x 124.46469pt.
  [24
 
- <./Euler_first_drawing.png> <./Euler second drawing.png>]
-<chaise_longue.png, id=691, 597.23125pt x 199.74625pt>
-File: chaise_longue.png Graphic file (type png)
-<use chaise_longue.png>
-Package pdftex.def Info: chaise_longue.png  used on input line 331.
-(pdftex.def)             Requested size: 298.61488pt x 99.87288pt.
+ <./euler_spiral.png>]
+<Euler_first_drawing.png, id=693, 487.8225pt x 421.575pt>
+File: Euler_first_drawing.png Graphic file (type png)
+<use Euler_first_drawing.png>
+Package pdftex.def Info: Euler_first_drawing.png  used on input line 363.
+(pdftex.def)             Requested size: 122.9164pt x 106.2233pt.
+<Euler second drawing.png, id=694, 248.72925pt x 211.992pt>
+File: Euler second drawing.png Graphic file (type png)
+<use Euler second drawing.png>
+Package pdftex.def Info: Euler second drawing.png  used on input line 363.
+(pdftex.def)             Requested size: 138.2795pt x 117.8575pt.
  [25
 
- <./chaise_longue.png>]
-<s_squared_minus_219.png, id=720, 160.6pt x 248.93pt>
-File: s_squared_minus_219.png Graphic file (type png)
-<use s_squared_minus_219.png>
-Package pdftex.def Info: s_squared_minus_219.png  used on input line 339.
-(pdftex.def)             Requested size: 32.11942pt x 49.78511pt.
+ <./Euler_first_drawing.png> <./Euler second drawing.png>]
+<chaise_longue.png, id=725, 597.23125pt x 199.74625pt>
+File: chaise_longue.png Graphic file (type png)
+<use chaise_longue.png>
+Package pdftex.def Info: chaise_longue.png  used on input line 371.
+(pdftex.def)             Requested size: 298.61488pt x 99.87288pt.
  [26
 
- <./s_squared_minus_219.png>]
-<five_s^4.png, id=748, 373.395pt x 213.79875pt>
-File: five_s^4.png Graphic file (type png)
-<use five_s^4.png>
-Package pdftex.def Info: five_s^4.png  used on input line 347.
-(pdftex.def)             Requested size: 186.69704pt x 106.89911pt.
+ <./chaise_longue.png>]
+<s_squared_minus_219.png, id=753, 160.6pt x 248.93pt>
+File: s_squared_minus_219.png Graphic file (type png)
+<use s_squared_minus_219.png>
+Package pdftex.def Info: s_squared_minus_219.png  used on input line 379.
+(pdftex.def)             Requested size: 32.11942pt x 49.78511pt.
  [27
 
+ <./s_squared_minus_219.png>]
+<five_s^4.png, id=781, 373.395pt x 213.79875pt>
+File: five_s^4.png Graphic file (type png)
+<use five_s^4.png>
+Package pdftex.def Info: five_s^4.png  used on input line 387.
+(pdftex.def)             Requested size: 186.69704pt x 106.89911pt.
+
+[28
+
  <./five_s^4.png>]
-<elegant_madness.png, id=776, 470.75874pt x 577.15625pt>
+<elegant_madness.png, id=809, 470.75874pt x 577.15625pt>
 File: elegant_madness.png Graphic file (type png)
 <use elegant_madness.png>
-Package pdftex.def Info: elegant_madness.png  used on input line 355.
+Package pdftex.def Info: elegant_madness.png  used on input line 395.
 (pdftex.def)             Requested size: 94.15007pt x 115.4292pt.
- [28
-
- <./elegant_madness.png>]
-<sinh.png, id=804, 605.26125pt x 167.62625pt>
-File: sinh.png Graphic file (type png)
-<use sinh.png>
-Package pdftex.def Info: sinh.png  used on input line 363.
-(pdftex.def)             Requested size: 302.62987pt x 83.81291pt.
  [29
 
- <./sinh.png>] [30
+ <./elegant_madness.png>]
+<sinh.png, id=837, 605.26125pt x 167.62625pt>
+File: sinh.png Graphic file (type png)
+<use sinh.png>
+Package pdftex.def Info: sinh.png  used on input line 403.
+(pdftex.def)             Requested size: 302.62987pt x 83.81291pt.
+ [30
+
+ <./sinh.png>] [31
 
 ]
-<cloverleaf_motorway.png, id=858, 399.29175pt x 365.56575pt>
+<cloverleaf_motorway.png, id=892, 399.29175pt x 365.56575pt>
 File: cloverleaf_motorway.png Graphic file (type png)
 <use cloverleaf_motorway.png>
-Package pdftex.def Info: cloverleaf_motorway.png  used on input line 387.
+Package pdftex.def Info: cloverleaf_motorway.png  used on input line 426.
 (pdftex.def)             Requested size: 199.64539pt x 182.78242pt.
- [31
 
- <./cloverleaf_motorway.png>] [32
+[32
 
-] [33
+ <./cloverleaf_motorway.png>] [33
+
+] [34
 
 ]
-<circular_track.png, id=939, 507.8975pt x 469.755pt>
+<circular_track.png, id=972, 507.8975pt x 469.755pt>
 File: circular_track.png Graphic file (type png)
 <use circular_track.png>
-Package pdftex.def Info: circular_track.png  used on input line 428.
+Package pdftex.def Info: circular_track.png  used on input line 467.
 (pdftex.def)             Requested size: 101.5777pt x 93.94933pt.
- [34
+ [35
 
- <./circular_track.png>] [35
+ <./circular_track.png>] [36
 
 ]
-<euler_track.png, id=993, 511.9125pt x 469.755pt>
+<euler_track.png, id=1026, 511.9125pt x 469.755pt>
 File: euler_track.png Graphic file (type png)
 <use euler_track.png>
-Package pdftex.def Info: euler_track.png  used on input line 468.
+Package pdftex.def Info: euler_track.png  used on input line 507.
 (pdftex.def)             Requested size: 102.38068pt x 93.94933pt.
- [36
 
- <./euler_track.png>] [37
+[37
+
+ <./euler_track.png>] [38
 
 ]
 \tf@nav=\write6
@@ -1190,11 +1203,11 @@ Package rerunfilecheck Info: File `Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22074 strings out of 478582
- 438083 string characters out of 2844344
- 677741 words of memory out of 3000000
- 39700 multiletter control sequences out of 15000+600000
- 481809 words of font info for 73 fonts, out of 8000000 for 9000
+ 22091 strings out of 478582
+ 438427 string characters out of 2844344
+ 679788 words of memory out of 3000000
+ 39711 multiletter control sequences out of 15000+600000
+ 482103 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,418b,637s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/maxmu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
@@ -1205,17 +1218,18 @@ ublic/amsfonts/cm/cmmi6.pfb><C:/Users/maxmu/AppData/Local/Programs/MiKTeX/fonts
 eX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/maxmu/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/maxmu/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/maxmu/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Use
-rs/maxmu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi12.p
-fb><C:/Users/maxmu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmssi8.pfb><C:/Users/maxmu/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb><C:/Users/maxmu/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmsy6.pfb><C:/Users/maxmu/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/maxmu/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Presentation.pdf (37 pages, 1896549 bytes).
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Us
+ers/maxmu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.
+pfb><C:/Users/maxmu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmssi12.pfb><C:/Users/maxmu/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmssi8.pfb><C:/Users/maxmu/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb><C:/Users/maxmu/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/maxmu/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/maxmu/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Presentation.pdf (38 pages, 2013449 bytes).
 PDF statistics:
- 1126 PDF objects out of 1200 (max. 8388607)
- 77 named destinations out of 1000 (max. 500000)
- 165 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1164 PDF objects out of 1200 (max. 8388607)
+ 81 named destinations out of 1000 (max. 500000)
+ 170 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -4,72 +4,85 @@
 
 \title{The Euler Spiral}
 \author{Max Mussavian}
-\date[2022]{9th May 2022}
+\date[2022]{16th May 2022}
 \begin{document}
 \begin{frame}[plain]
     \maketitle
 \end{frame}
 \begin{frame}{Outline}
 	\begin{itemize}
-		\item Definitions and Derivations: Parametric Curves, Lengths and Curvature
-		\item Relating the Curve Length to its Curvature
-		\item Calculating Fresnel Integrals and the Euler Spiral
-		\item Plotting the Euler Spiral and other Fun Curves
-		\item Application: Designing Railways and Roads
+		\item Definitions and Derivations: parametric curves, lengths and curvature
+		\item Relating curvature to the curve length
+		\item Calculating arc length integrals
+		\item Plotting the Euler spiral and other fun curves
+		\item Application: designing railways and roads
 	\end{itemize}
 \end{frame}
 
 
-\begin{frame}{Parametric Curves}
+\begin{frame}{Parametric curves}
 	
 		All curves in this talk are in $\mathbb{R}^2$.
-		\begin{definition}[A Parametric Curve]
-			A parametric curve is a \alert{{smooth}} function that has the form
-			$x = g(t)$ and $y=h(t)$ defined on an open interval $(a, b)$.
-		
-			The set of points traced out by the curve is called the trace.
+		\begin{definition}[Parametric curve]
+			A parametric curve is a smooth function that is defined on an open interval $(a, b)$ and takes values in $\mathbb{R}^2$ of the form $x = g(t)$ and $y=h(t)$.
+			\newline
+			The set of points traced out by the curve is called the \textbf{trace}.
 		\end{definition}
-	
 \end{frame}
 
-	\begin{frame}{How Long is a Curve?}
-		\begin{figure}
-		\centering
-		\includegraphics[width=50mm, scale=0.4]{arc_length_integral.png}
-		\end{figure}
-		\begin{itemize}
-		\item Use Pythagoras to approximate $\Delta$s
-		\item $\Delta s $ 
-		$ \approx	\sqrt{\Delta y^2 + \Delta x^2} $
-		\end{itemize}
-	\end{frame}
-
-\begin{frame}{Derivation Arc Length Integral}
-	
+\begin{frame}{Length of a curve}
+	\begin{figure}
+	\centering
+	\includegraphics[width=70mm, scale=0.4]{curve_length_2.png}
+	\end{figure}
 	\begin{itemize}
-		\item Write the whole Curve Length ,S, as a Riemann Sum and make it into Integral
-		\item S $\approx$ $\sum\limits^{n}_{i=1}{\sqrt{\Delta y_i^2 + \Delta x_i^2}}$
-		\item Factor out $\Delta x_i^2$
-		\item S = ${\alert{\lim_{n \to \infty}}}\sum\limits^{n}_{i=1}{\sqrt{\Delta y_i^2/\Delta x_i^2 + 1}} \Delta x_i$
-		\item S = $\int_{a}^{b} \sqrt{(dy/dx)^2+1}dx$
+	\item When $\Delta t = t_2 - t_1$ is small
+	\item $\Delta s \approx	\sqrt{\left(\Delta x\right)^2 + \left(\Delta y\right)^2} $
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Derivation of Arc Length Integral}
-	
+\begin{frame}{Derivation arc length integral}	
 	\begin{itemize}
-		\item S = $\int_{a}^{b} \sqrt{(dy/dx)^2+1}dx$ 
-		\item $\frac{dx/dt}{dx/dt}=1$ so
-		\item S = $\int_{a}^{b} \sqrt{(\frac{dy/dt}{dx/dt})^2+(\frac{dx/dt}{dx/dt})^2}dx$
-		\item Factor out $(\frac{dx/dt}{dx/dt})^2$ giving us:
-		\item S = $\int_{a}^{b} \sqrt{(dy/dt)^2+(dx/dt)^2}dt$
+		\item From the \emph{mean value theorem} there exits a $t_x \in [t_1, t_2]$ such that	
+		\[
+			\Delta x = x'(t_x) \Delta t
+		\]
+		where $x'(t_x) = \frac{dx}{dt}\big|_{t=t_x}$
+		\item Similarly there exists $t_y \in [t_1, t_2]$ such that 
+		\[
+			\Delta y = y'(t_y) \Delta t
+		\]
+		where $y'(t_y) = \frac{dy}{dt}\big|_{t=t_y}$ 
+		\item 
+		\[
+			\Delta s \approx \sqrt{\left(x'(t_x)\right)^2 + \left(y'(t_y)\right)^2)} \Delta t
+		\]
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Arc Length Integral}
+\begin{frame}{Length of a curve segment}
+	
+	\begin{itemize}
+		\item Partition the domain $(a,b)$ into $n$ intervals: Let $t_0, t_1, \dots t_n$ be such that $t_0=a$ and $t_n=b$ and $t_{i-1} \le t_{i}$ for all $i=1, \dots n$. 
+		\item The whole curve length, $S$, is sum of curve length segments between each $(x(t_{i-1}), y(t_{i-1}))$ and $(x(t_i), y(t_i))$.  
+		\item Approximate, $S$, with a Riemann sum 
+		\[
+			S \approx \sum\limits^{n}_{i=1} \sqrt{\left(x'(t_{x_i})\right)^2 + \left(y'(t_{y_i})\right)^2} \Delta t_i 
+		\] 
+		where $\Delta t_i = t_i-t_{i-1}$
+		$t_{x_i} \in [t_{i-1}, t_{i}]$ and $t_{y_i} \in [t_{i-1}, t_{i}]$ for all $i$.
+		\item Let $n \to \infty$ 
+		\begin{eqnarray*}
+			S &=& \lim_{n \to \infty} \sum\limits^{n}_{i=1} \sqrt{\left(x'(t_{x_i})\right)^2 + \left(y'(t_{y_i})\right)^2} \Delta t_i \\
+			& = & \int_{t=a}^{t=b} \sqrt{(x'(t))^2 + (y'(t))^2 } dt
+		\end{eqnarray*}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Arc length integral}
 	\begin{theorem}[Arc Length]
 		The arc length between two points the curve for T = a and T = b is given by
-		S = $\int_{a}^{b} \sqrt{(dy/dt)^2+(dx/dt)^2}dt$
+		S = $\int_{a}^{b} \sqrt{\left(\frac{dy}{dt}\right)^2+\left(\frac{dx}{dt}\right)^2}dt$
 	\end{theorem}
 	\begin{figure}
 		\centering
@@ -77,21 +90,24 @@
 	\end{figure}
 \end{frame}
 
-\begin{frame}{Deriving Formula for Curvature}
+\begin{frame}{Deriving formula for curvature}
 	\begin{columns}
 		\begin{column}{0.4\textwidth}
 			\begin{figure}
 				\centering
-				\includegraphics[width=50mm, scale=0.4]{illustration.png}
+				\includegraphics[width=50mm, scale=0.4]{curvature_illustration.png}
 			\end{figure}
 		\end{column}
 		\begin{column}{0.6\textwidth}
 			\begin{itemize}
-				\item Firstly Curvature is 1/radius of Osculating Circle.
-				\item Or the rate of Change of the angle the tangent makes with the x axis with respect to arc length.
-				\item $ds=rd\theta$ $\implies$ $1/r=d\theta/ds$
+				\item Firstly curvature is 1/radius of the osculating circle.
+				\item Or the rate of change of the angle the tangent makes with the x axis with respect to arc length.
+				\item $ds=rd\theta$ $\implies$ $\frac{1}{r}=\frac{d\theta}{ds}$
 				
-				\item $\frac{ds}{dt} = \sqrt{x'^2+y'^2}$ from arc length.
+				\item From arc length 
+				\begin{equation} \label{eq:1}
+					\frac{ds}{dt} = \sqrt{(x'(t))^2+(y'(t))^2} 
+				\end{equation}
 				
 				
 			
@@ -105,22 +121,46 @@
 	
 \end{frame}
 
-\begin{frame}{Deriving Formula for Curvature}
-	\begin{itemize}
-			\item $\tan \theta = \frac{y'(t)}{x'(t)}$ $\implies$ $\sec ^2 \theta \frac{d\theta}{dt} = \frac{x' y'' - y' x''}{x'^2}$.
-			\item $sec^2\theta = tan^2\theta +1 = \frac{x'^2+y'^2}{x'^2}$ $\implies$
-		$\frac{d\theta}{dt}=\frac{x' y'' - y' x''}{x'^2+y'^2}$
-		
-		
-		
-		\item Combining gives us
-		$1/r= \frac{d\theta/dt}{ds/dt} = d\theta/ds = \frac{x' y'' - y' x''}{(x'^2+y'^2)^{3/2}}$
-		
-		\item Curvature, $\kappa$ = $\frac{x' y'' - y' x''}{(x'^2+y'^2)^{3/2}}$
-	\end{itemize}
+\begin{frame}{Deriving formula for curvature}
+	\begin{columns}
+		\begin{column}{0.4\textwidth}			
+			\begin{figure}
+				\centering
+				\includegraphics[width=40mm, scale=0.3]{curvature_illustration_2.png}
+			\end{figure}
+		\end{column}
+		\begin{column}{0.75\textwidth}			
+
+			\begin{itemize}
+				\item $\tan \theta = \frac{y'(t)}{x'(t)}$ 
+				\item Differentiate w.r.t. $t$ gives $\sec ^2 \theta \frac{d\theta}{dt} = \frac{x'(t) y''(t) - y'(t) x''(t)}{(x'(t))^2}$
+				where $x''(t)=\frac{d^2 x}{dt^2}$ and $x''(t)=\frac{d^2 y}{dt^2}$
+				\item $sec^2\theta = tan^2\theta +1 = \frac{{(x'(t))^2+(y'(t))^2}}{(x'(t))^2}$ 
+				\item Therefore
+				\begin{equation} \label{eq:2}
+				\frac{d\theta}{dt}=\frac{x'(t) y''(t) - y'(t) x''(t)}{(x'(t))^2+(y'(t))^2}
+				\end{equation}
+
+			\end{itemize}
+	\end{column}
+\end{columns}
 \end{frame}
 
-\begin{frame}{How Curved is a Curve?}
+\begin{frame}{Deriving formula for curvature}
+	\begin{itemize}
+		\item Combining equations \ref{eq:1} and \ref{eq:2} gives us
+		\begin{eqnarray*}
+			1/r &=& \frac{d\theta/dt}{ds/dt}  \\
+			    &=& d\theta/ds \\
+			    &=& \frac{x'(t) y''(t) - y'(t) x''(t)}{\left( (x'(t))^2 + (y'(t))^2 \right)^{3/2}}
+		\end{eqnarray*}
+		
+		\item Curvature, $\kappa$ = $\frac{x' y'' - y' x''}{(x'^2+y'^2)^{3/2}} $
+	\end{itemize}
+	
+\end{frame}
+
+\begin{frame}{How curved is a curve?}
 	\begin{Theorem}[Curvature]
 		The curvature of curve is $\kappa$ which is the reciprocal of the radius of the {\alert{osculating circle}} given by
 		$\kappa=\frac{x' y'' - y' x''}{(x'^2+y'^2)^{3/2}}$
@@ -131,16 +171,16 @@
 \end{figure}
 \end{frame}
 
-\begin{frame}{Circle}
+\begin{frame}{Curvature of a circle}
 	\begin{itemize}	
 		
-		\item Circle: The parametric equations for a circle with radius $r$ as $x(t)=r \cos(t)$ and $y(t)= r \sin(t)$. The arc length is 
+		\item Circle: The parametric equations for a circle with radius $r$ are $x(t)=r \cos(t)$ and $y(t)= r \sin(t)$. The arc length is 
 		
 		\[	
 		s = \int_{0}^{2 \pi} \sqrt{r^2 \sin^2 t + r^2 \cos^2 t}dt = \left[r \right]_{0}^{2 \pi} = 2 \pi r
 		\]
 	
-		\item Using the same Parametrisations we can work out the Curvature
+		\item Using the same parametrisations we can work out the curvature
 		
 		\[
 		\kappa = \frac{r^2 \sin^2 t + r^2 \cos^2 t}{\left(r^2 \sin^2 t + r^2 \cos^2 t \right) ^ \frac{3}{2}} = \frac{1}{r}
@@ -149,7 +189,7 @@
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Parabola Curve Length}
+\begin{frame}{Parabola curve length}
 	\begin{itemize}	
 			
 			\item Parabola: We can define a parabola as $x(t)=t$ and $y(t)=t^2$. The arc length between 0 and 1 is 
@@ -165,7 +205,7 @@
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Parabola Curvature}
+\begin{frame}{Parabola curvature}
 	\begin{itemize}	
 		
 		\item Parabola: Recall $x(t)=t$ and $y(t)=t^2$. 
@@ -182,7 +222,7 @@
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Relating Curve Length to Curvature}
+\begin{frame}{Relating curve length to curvature}
 	Let's try the following parametrisation for $x$ and $y$
 	\begin{eqnarray*}
 		x(t) &=& \int_{0}^{t} \cos f(u) du \\
@@ -195,7 +235,7 @@
 	\end{eqnarray*}
 \end{frame}
 
-\begin{frame}{Relating Curve Length to Curvature}
+\begin{frame}{Relating curve length to curvature}
 	This gives us the following for slope, arc length and curvature
 	\begin{eqnarray*}
 	\frac{dy}{dx} &=& \frac{\sin f(t)}{\cos f(t)} = \tan f(t) \\
@@ -204,7 +244,7 @@
  \end{eqnarray*}
 \end{frame}
 
-\begin{frame}{Define the Curve by Curve Length and Curvature}
+\begin{frame}{Define the curve by curve length and curvature}
 	We can replace the variable $t$ by the arc length $s$.
 	 
 	And the curvature at point $t$ is $f'(t)$. Which means
@@ -219,7 +259,7 @@
 	Hence the curve is defined by arc length and curvature alone.
 \end{frame}
 
-\begin{frame}{A Very Simple Example}
+\begin{frame}{A very simple example}
 	We can make the curvature $\kappa$ constant and equal to 1. Then 
 	$ \int_0^u \kappa(t) dt = u $ and
 	\begin{eqnarray*}
@@ -231,7 +271,7 @@
 \end{frame}
 
 
-\begin{frame}{The Euler Spiral}
+\begin{frame}{The Euler spiral}
 	Recall: Euler defined his curve as one where the curvature is proportional to arc length.
 	
 	\begin{center}
@@ -247,7 +287,7 @@
 	But since these integrals can't be solved analytically how were they calculated?
 \end{frame}
 
-\begin{frame}{Solving the Integrals: Euler}
+\begin{frame}{Solving the integrals: Euler}
 	\begin{itemize}
 		\item In 1744 Euler derived these integrals.
 		\includegraphics[width=50mm, scale=0.5]{euler_scripture_1.png}	
@@ -259,20 +299,20 @@
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Solving the Integrals: Fresnel and Cornu}
+\begin{frame}{Solving the integrals: Fresnel and Cornu}
 	\begin{itemize}
-		\item In 1818 Augustin Fresnel rediscovered these integrals when he investigated the diffraction of light through a slit. He showed that the intensity (under some assumptions) was 
+		\item Fresnel rediscovered these integrals when investigating the diffraction of light through a slit. He showed that the light intensity (under some assumptions) was 
 		\[
 		\left( \int_{0}^{s}\cos \left( \pi t^2 / 2 \right) dt \right) ^2 + 
 		\left( \int_{0}^{s}\sin \left( \pi t^2 / 2 \right) dt \right) ^2
 		\] 
 		\item Up to a factor of $\pi$ the integrals are the same as the ones Euler derived.
-		\item These integrals are now called the \emph{Fresnel Integrals}.
+		\item These integrals are now called the \emph{Fresnel integrals}.
 		\item Fresnel calculated them for values of $s$ between 0.1 and 5.1.
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Solving the Integrals: Today with Python}
+\begin{frame}{Solving the integrals: using Python}
 	\begin{columns}
 		\begin{column}{0.5\textwidth}
 			\includegraphics[width=50mm, scale=0.5]{code_1.png}
@@ -280,15 +320,15 @@
 			\includegraphics[width=50mm, scale=0.5]{code_2.png}
 		\end{column}
 		\begin{column}{0.5\textwidth}
-		Nowadays we use computers and numerical methods to evaluate these integrals.
+		Nowadays computers and numerical methods are used to evaluate these integrals.
 			
 		\end{column}
 	\end{columns}
 \end{frame}
 
-\begin{frame}{The Euler Spiral - $x$ $y$ Coordinates}
+\begin{frame}{The Euler spiral - $x$ $y$ Coordinates}
 	\begin{figure}
-		\caption{Fresnel Integrals with arguments $\frac{u^2}{2}$}
+		\caption{Fresnel integrals with arguments $\frac{u^2}{2}$}
 		\centering
 		\includegraphics[width=70mm, scale=0.5]{euler_x_vs_y.png}
 	\end{figure}
@@ -297,32 +337,32 @@
 
 \begin{frame}{The Euler Spiral}
 	\begin{figure}
-		\caption{The Euler Spiral aka Cornu Curve}
+		\caption{The Euler spiral aka Cornu curve}
 		\centering
 		\includegraphics[width=70mm, scale=0.5]{euler_spiral.png}
 	\end{figure}
 	
 \end{frame}
 
-\begin{frame}{Eulers First Drawing}
+\begin{frame}{Eulers first drawing}
 \begin{figure}
 	\centering
 	\begin{minipage}{.5\textwidth}
 		\centering
 		\includegraphics[width=.8\linewidth]{Euler_first_drawing.png}
-		\caption{Euler's First Drawing from a 1744 Publication. P refers to a weight.}
+		\caption{Euler's first drawing from a 1744 publication. P refers to a weight.}
 		\label{fig:test1}
 	\end{minipage}%
 	\begin{minipage}{.5\textwidth}
 		\centering
 		\includegraphics[width=0.9\linewidth]{Euler second drawing.png}
-		\caption{Euler's drawing of full Spiral in 1781 after solving integrals to $\infty$}
+		\caption{Euler's drawing of full spiral in 1781 after solving integrals to $\infty$}
 		\label{fig:test2}
 	\end{minipage}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Other Fun Curves: Even Powers of $s$}
+\begin{frame}{Other fun curves: even powers of $s$}
 	\begin{figure}
 		\caption{$\kappa(s) = s^2$}
 		\centering
@@ -330,7 +370,7 @@
 	\end{figure}
 \end{frame}
 
-\begin{frame}{More Fun Curves: Mix in a Bit of a Circle}
+\begin{frame}{More fun curves: mix in a bit of a circle}
 	\begin{figure}
 		\caption{$\kappa(s) = s ^ 2 -2.19$}
 		\centering
@@ -338,7 +378,7 @@
 	\end{figure}
 \end{frame}
 
-\begin{frame}{More Fun Curves: Polynomials}
+\begin{frame}{More fun curves: polynomials}
 	\begin{figure}
 		\caption{$\kappa(s) = 5 s ^ 4 - 18 s ^ 2 + 5$}
 		\centering
@@ -346,7 +386,7 @@
 	\end{figure}
 \end{frame}
 
-\begin{frame}{More Fun Curves: Trigonometric Functions}
+\begin{frame}{More fun curves: trigonometric functions}
 	\begin{figure}
 		\caption{$\kappa(s) = \cos(s) - s \sin(s)$}
 		\centering
@@ -354,7 +394,7 @@
 	\end{figure}
 \end{frame}
 	
-\begin{frame}{More Fun Curves: Hyperbolic Functions}
+\begin{frame}{More fun curves: hyperbolic functions}
 	\begin{figure}
 		\caption{$\kappa(s) = \sinh(s) - 5.19$}
 		\centering
@@ -364,29 +404,28 @@
 
 \begin{frame}{A major use of the Euler Spiral}
 	\begin{itemize}
-		\item As trains became faster in the 19th century, the Euler spiral was rediscovered by railway designers.
-		\item Railway engineers discovered that a track shape with gradually varying curvature provided a smooth riding experience.
-		\item In 1899 railway engineer Arthur Talbot solved the problem mathematically and derived the same integrals as Fresnel.
-		\item His solution was ``a curve whose degree-of-curve increases directly along the curve."
-		\item He derived a series expansion for the integrals almost identical to Euler's 1744 series. 
+		\item In the 19th century, the Euler spiral was rediscovered by railway designers.
+		\item They realised that a track shape with gradually varying curvature provided a smoother riding experience.
+		\item In 1899 Arthur Talbot solved the design problem mathematically deriving the same integrals as Fresnel.
+		\item His series expansion for the integrals was almost identical to Euler's 1744 series. 
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Designing Roads and Railways}
+\begin{frame}{Designing roads and railways}
 	\begin{itemize}
 		\item Transition curves are used to link straight sections of motorways or railways.
 		\item They are designed to give passengers a smooth ride with no sudden changes in acceleration.
 
 	\end{itemize}
 		\begin{figure}
-		\caption{Cloverleaf Motorway Interchange}
+		\caption{Cloverleaf motorway interchange}
 		\centering
 		\includegraphics[width=50mm, scale=0.5]{cloverleaf_motorway.png}
 	\end{figure}
 
 \end{frame}
 
-\begin{frame}{Why Transition Curves are Euler Spirals}
+\begin{frame}{Why transition curves are Euler spirals}
 	\begin{itemize}
 	\item The acceleration along the transition curve is given by
  	 \[
@@ -398,7 +437,7 @@
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Case 1: Semicircular Transition Curves}
+\begin{frame}{Case 1: Semicircular transition curves}
 	A closed  track is made up of four segments.
 	\begin{enumerate}
 		\item A straight track of length 1km
@@ -409,17 +448,17 @@
 	Let the vehicle go around the track at a constant speed of $60 km/h = 16 \frac{2}{3} m/s$.
 \end{frame}
 
-\begin{frame}{Case 1: Position and Acceleration}
+\begin{frame}{Case 1: Position and acceleration}
 	\begin{columns}
 		\begin{column}{0.8\textwidth}			
 			\begin{figure}
-				\caption{Position and Acceleration}
+				\caption{Position and acceleration}
 				\centering
 				\includegraphics[width=70mm, scale=0.2]{circular_track.png}
 			\end{figure}
 		\end{column}
 		\begin{column}{0.33\textwidth}
-			Note: The acceleration is a step function. 
+			Note: Acceleration is a step function. 
 			
 			
 			As a passenger you would feed the full centrifugal force ({\alert{$F=mv^2/r$}}) pushing you outward the moment you entered the curve. 		
@@ -428,7 +467,7 @@
 \end{frame}
 
 
-\begin{frame}{Case 2: Euler Spiral Transition Curves}
+\begin{frame}{Case 2: Euler spiral transition curves}
 	\begin{itemize}
 		\item A closed track with same width and height. 
 		\item Replace semicircles with two parts of an Euler Spiral.
@@ -448,19 +487,19 @@
 	
 \end{frame}
 
-\begin{frame}{Case 2: Euler Spiral Transition Curves}
+\begin{frame}{Case 2: Euler spiral transition curves}
 	\begin{columns}
 		\begin{column}{0.8\textwidth}			
 			\begin{figure}
-				\caption{Position and Acceleration}
+				\caption{Position and acceleration}
 				\centering
 				\includegraphics[width=70mm, scale=0.2]{euler_track.png}
 			\end{figure}
 		\end{column}
 		\begin{column}{0.33\textwidth}
-			Note: The acceleration increases linearly as we move through the curve.
+			Note: Acceleration increases linearly as we move through the curve.
 			
-			The maximum acceleration however at the apex is greater than with the semicircular track. But the ride is more comfortable now!
+			Howvever the maximum acceleration at the apex is greater than with the semicircular track but the ride is now more comfortable.
 					
 		\end{column}
 	\end{columns}

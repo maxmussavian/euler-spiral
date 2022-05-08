@@ -1,0 +1,73 @@
+\documentclass[13pt]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+%opening
+\title{}
+\author{}
+
+\begin{document}
+
+\maketitle
+
+Suppose $t_1$ and $t_2$ are two points in the domain of the curve with $t_2 \ge t_1$. We want expression for the distance between the points $(x(t_2), y(t_2))$ and $(x(t_1), y(t_1))$.
+
+That is we want to evaluate
+
+\[
+	\Delta s = \sqrt{ \left( x(t_2) - x(t_1) \right)^2 + \left( y(t_2) - y(t_1) \right)^2 }
+\]
+
+From the mean value theorem we have that there exits a $t_x \in [t_1, t_2]$ such that
+
+\begin{eqnarray*}
+	\Delta x &=& x(t_2) - x(t_1) \\
+	         &=& \frac{dx(t_x)}{dt}(t_2-t_1) \\
+	         &=& \frac{dx(t_x)}{dt} \Delta t
+\end{eqnarray*}
+
+where 
+
+\[
+\frac{dx(t_x)}{dt} = \frac{dx}{dt}\bigg|_{t=t_x}
+\]
+and $\Delta t = t_2-t_1$.
+
+Similarly for $y$ there exists a value $t_y \in [t_1, t_2]$ such that 
+
+\begin{eqnarray*}
+	\Delta y &=& y(t_2) - y(t_1) \\
+	&=& \frac{dy(t_y)}{dt}(t_2-t_1) \\
+	&=& \frac{dy(t_y)}{dt} \Delta t
+\end{eqnarray*}
+
+Thus we have
+
+\[
+	\Delta s = \sqrt{ \left(  \frac{dx(t_x)}{dt} \right)^2 + \left( \frac{dy(t_y)}{dt} \right)^2 } \Delta t
+\]
+But to get the Riemann sum we need the differential to be evaluated at the points $(x(t_1), y(t_1))$.
+\begin{eqnarray*}
+\Delta s &=& \sqrt{ \left(  \frac{dx(t_x)}{dt} \right)^2 + \left( \frac{dy(t_y)}{dt} \right)^2 } \Delta t \\
+         &=& \sqrt{ \left(  \frac{dx(t_1)}{dt} \right)^2 + \left( \frac{dy(t_1)}{dt} \right)^2 } (t_2-t_1) + \epsilon(t_1, t_2)
+\end{eqnarray*}
+
+where 
+\[
+	\epsilon(t_1, t_2) = \sqrt{ \left(  \frac{dx(t_x)}{dt} \right)^2 + \left( \frac{dy(t_y)}{dt} \right)^2 } - \sqrt{ \left(  \frac{dx(t_1)}{dt} \right)^2 + \left( \frac{dy(t_1)}{dt} \right)^2 }
+\]
+
+Now we have 
+\begin{eqnarray*}
+	\left| \epsilon(t_1, t_2) \right| &=& \left|\sqrt{ \left(  \frac{dx(t_x)}{dt} \right)^2 + \left( \frac{dy(t_y)}{dt} \right)^2 } - \sqrt{ \left(  \frac{dx(t_1)}{dt} \right)^2 + \left( \frac{dy(t_1)}{dt} \right)^2 } \right| \\
+		                  &\le& \sqrt{\left(\frac{dx(t_x)}{dt} - \frac{dx(t_1)}{dt} \right) ^ 2 + \left(\frac{dy(t_y)}{dt} - \frac{dy(t_1)}{dt} \right) ^ 2}  \\
+		                  &\le& \left| \frac{dx(t_x)}{dt} - \frac{dx(t_1)}{dt} \right| + \left| \frac{dy(t_y)}{dt} - \frac{dy(t_1)}{dt} \right|
+\end{eqnarray*}
+where the first inequality comes from the reverse triangle inequality  $\left| \left|a\right| - \left|b\right| \right| \le \left| a-b \right|$ and the second comes from the regular triangle inequality $\left| a+b \right| \le \left|a\right| + \left|b\right|$. 
+
+Finally the first derivatives of $x$ and $y$ are continuous we can make $\epsilon(t_1, t_2)$ arbitrary small as we let $\Delta t$ become small.
+
+
+
+
+\end{document}
