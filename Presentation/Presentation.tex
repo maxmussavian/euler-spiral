@@ -24,7 +24,7 @@
 	
 		All curves in this talk are in $\mathbb{R}^2$.
 		\begin{definition}[Parametric curve]
-			A parametric curve is a smooth function that is defined on an open interval $(a, b)$ and takes values in $\mathbb{R}^2$ of the form $x = g(t)$ and $y=h(t)$.
+			A parametric curve is a smooth function that is defined on an open interval $(a, b)$ and takes values in $\mathbb{R}^2$ of the form $(x(t), y(t))$.
 			\newline
 			The set of points traced out by the curve is called the \textbf{trace}.
 		\end{definition}
@@ -41,7 +41,7 @@
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Derivation arc length integral}	
+\begin{frame}{Length of a curve segment}	
 	\begin{itemize}
 		\item From the \emph{mean value theorem} there exits a $t_x \in [t_1, t_2]$ such that	
 		\[
@@ -55,39 +55,46 @@
 		where $y'(t_y) = \frac{dy}{dt}\big|_{t=t_y}$ 
 		\item 
 		\[
-			\Delta s \approx \sqrt{\left(x'(t_x)\right)^2 + \left(y'(t_y)\right)^2)} \Delta t
+			\Delta s \approx \sqrt{x'(t_x)^2 + y'(t_y)^2} \Delta t
 		\]
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Length of a curve segment}
+\begin{frame}{Derivation arc length integral}
 	
 	\begin{itemize}
-		\item Partition the domain $(a,b)$ into $n$ intervals: Let $t_0, t_1, \dots t_n$ be such that $t_0=a$ and $t_n=b$ and $t_{i-1} \le t_{i}$ for all $i=1, \dots n$. 
+		\item Partition the domain $(a,b)$ into $n$ small intervals: Let $t_0, t_1, \dots t_n$ be such that $t_0=a$ and $t_n=b$ and $t_{i-1} < t_{i}$ for all $i=1, \dots n$. 
 		\item The whole curve length, $S$, is sum of curve length segments between each $(x(t_{i-1}), y(t_{i-1}))$ and $(x(t_i), y(t_i))$.  
+		\begin{figure}
+			\centering
+			% \includegraphics[width=50mm, scale=0.4]{Arc length Integral.png}
+			\includegraphics[width=100mm, scale=0.4]{curve_length_total.png}
+		\end{figure}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Derivation arc length integral}
+	
+	\begin{itemize}
 		\item Approximate, $S$, with a Riemann sum 
 		\[
-			S \approx \sum\limits^{n}_{i=1} \sqrt{\left(x'(t_{x_i})\right)^2 + \left(y'(t_{y_i})\right)^2} \Delta t_i 
+		S \approx \sum\limits^{n}_{i=1} \sqrt{x'(t_{x_i})^2 + y'(t_{y_i})^2} \Delta t_i 
 		\] 
 		where $\Delta t_i = t_i-t_{i-1}$
 		$t_{x_i} \in [t_{i-1}, t_{i}]$ and $t_{y_i} \in [t_{i-1}, t_{i}]$ for all $i$.
-		\item Let $n \to \infty$ 
+		\item Let $n \to \infty$ such that $\Delta t_i \to 0$ for all $i$ then
 		\begin{eqnarray*}
-			S &=& \lim_{n \to \infty} \sum\limits^{n}_{i=1} \sqrt{\left(x'(t_{x_i})\right)^2 + \left(y'(t_{y_i})\right)^2} \Delta t_i \\
-			& = & \int_{t=a}^{t=b} \sqrt{(x'(t))^2 + (y'(t))^2 } dt
+			S &=& \lim_{n \to \infty} \sum\limits^{n}_{i=1} \sqrt{x'(t_{x_i})^2 + y'(t_{y_i})^2} \Delta t_i \\
+			& = & \int_{t=a}^{t=b} \sqrt{x'(t)^2 + y'(t)^2 } dt
 		\end{eqnarray*}
 	\end{itemize}
 \end{frame}
 
 \begin{frame}{Arc length integral}
 	\begin{theorem}[Arc Length]
-		The arc length between two points the curve for T = a and T = b is given by
-		S = $\int_{a}^{b} \sqrt{\left( \frac{dy}{dt} \right)^2 + \left( \frac{dx}{dt} \right)^2}dt$
+		The arc length between two points, $t = a$ and $t = b$, on the curve is given by
+		S = $\int_{a}^{b} \sqrt{\left( \frac{dy}{dt} \right)^2 + \left( \frac{dx}{dt} \right)^2 }dt$
 	\end{theorem}
-	\begin{figure}
-		\centering
-		\includegraphics[width=50mm, scale=0.4]{Arc length Integral.png}
-	\end{figure}
 \end{frame}
 
 \begin{frame}{Deriving formula for curvature}
@@ -106,7 +113,7 @@
 				
 				\item From arc length 
 				\begin{equation} \label{eq:1}
-					\frac{ds}{dt} = \sqrt{(x'(t))^2+(y'(t))^2} 
+					\frac{ds}{dt} = \sqrt{x'(t)^2+y'(t)^2} 
 				\end{equation}
 				
 				
@@ -123,22 +130,22 @@
 
 \begin{frame}{Deriving formula for curvature}
 	\begin{columns}
-		\begin{column}{0.4\textwidth}			
+		\begin{column}{0.35\textwidth}			
 			\begin{figure}
 				\centering
-				\includegraphics[width=40mm, scale=0.3]{curvature_illustration_2.png}
+				\includegraphics[width=60mm, scale=0.65]{curvature_illustration_2.png}
 			\end{figure}
 		\end{column}
 		\begin{column}{0.75\textwidth}			
 
 			\begin{itemize}
 				\item $\tan \theta = \frac{y'(t)}{x'(t)}$ 
-				\item Differentiate w.r.t. $t$ gives $\sec ^2 \theta \frac{d\theta}{dt} = \frac{x'(t) y''(t) - y'(t) x''(t)}{(x'(t))^2}$
+				\item Differentiate w.r.t. $t$ gives $\sec ^2 \theta \frac{d\theta}{dt} = \frac{x'(t) y''(t) - y'(t) x''(t)}{x'(t)^2}$
 				where $x''(t)=\frac{d^2 x}{dt^2}$ and $y''(t)=\frac{d^2 y}{dt^2}$
-				\item $sec^2\theta = tan^2\theta +1 = \frac{{(x'(t))^2+(y'(t))^2}}{(x'(t))^2}$ 
+				\item $sec^2\theta = tan^2\theta +1 = \frac{{x'(t)^2+y'(t)^2}}{x'(t)^2}$ 
 				\item Therefore
 				\begin{equation} \label{eq:2}
-				\frac{d\theta}{dt}=\frac{x'(t) y''(t) - y'(t) x''(t)}{(x'(t))^2+(y'(t))^2}
+				\frac{d\theta}{dt}=\frac{x'(t) y''(t) - y'(t) x''(t)}{x'(t)^2+y'(t)^2}
 				\end{equation}
 
 			\end{itemize}
@@ -150,12 +157,12 @@
 	\begin{itemize}
 		\item Combining equations \ref{eq:1} and \ref{eq:2} gives us
 		\begin{eqnarray*}
-			\frac1r &=& \frac{d\theta/dt}{ds/dt}  \\
-			    &=& \frac{d\theta}{ds} \\
-			    &=& \frac{x'(t) y''(t) - y'(t) x''(t)}{\left( (x'(t))^2 + (y'(t))^2 \right)^{3/2}}
+			\frac1r &=& \frac{d\theta}{ds} \\
+					&=& \frac{d\theta/dt}{ds/dt}  \\
+			        &=& \frac{x'(t) y''(t) - y'(t) x''(t)}{\left(x'(t)^2 + y'(t)^2 \right)^{3/2}}
 		\end{eqnarray*}
 		
-		\item Curvature, $\kappa$ = $\frac{x' y'' - y' x''}{(x'^2+y'^2)^{3/2}} $
+		\item Curvature, $\kappa$ =\alert{ $\frac1r $}
 	\end{itemize}
 	
 \end{frame}
@@ -163,7 +170,9 @@
 \begin{frame}{How curved is a curve?}
 	\begin{Theorem}[Curvature]
 		The curvature of curve is $\kappa$ which is the reciprocal of the radius of the {\alert{osculating circle}} given by
-		$\kappa=\frac{x' y'' - y' x''}{(x'^2+y'^2)^{3/2}}$
+		\[
+		\kappa=\frac{x'(t) y''(t) - y'(t) x''(t)}{\left( x'(t)^2 + y'(t)^2 \right)^{3/2}}
+		\]
 	\end{Theorem}
 	\begin{figure}
 	\centering
@@ -174,7 +183,8 @@
 \begin{frame}{Curvature of a circle}
 	\begin{itemize}	
 		
-		\item Circle: The parametric equations for a circle with radius $r$ are $x(t)=r \cos(t)$ and $y(t)= r \sin(t)$. The arc length is 
+		\item Circle: The parametric equations for a circle with radius $r$ are $x(t)=r \cos(t)$ and $y(t)= r \sin(t)$. 
+		\item The arc length is 
 		
 		\[	
 		s = \int_{0}^{2 \pi} \sqrt{r^2 \sin^2 t + r^2 \cos^2 t}dt = \left[r \right]_{0}^{2 \pi} = 2 \pi r
@@ -192,7 +202,7 @@
 \begin{frame}{Parabola curve length}
 	\begin{itemize}	
 			
-			\item Parabola: We can define a parabola as $x(t)=t$ and $y(t)=t^2$. The arc length between 0 and 1 is 
+			\item Parabola: For parabola $y=x^2$ the parametric equations are $x(t)=t$ and $y(t)=t^2$. The arc length between 0 and 1 is 
 			\begin{eqnarray*}
 				s &=& \int_{0}^{1} \sqrt{1+4t^2}dt \\ &=& \left[\frac{1}{2} t\sqrt{1+ 4 t^2} +\frac{1}{4} \ln \left(2 t+\sqrt{1+ 4 t^2} \right) \right]_{0}^1 \\
 				&\approx&	 1.48
@@ -249,7 +259,7 @@
 	 
 	And the curvature at point $t$ is $f'(t)$. Which means
 	 \[
-	 f(t) = \int \kappa(t) dt
+	 f(u) = \int_{0}^{u} \kappa(t) dt
 	 \]
 	Thus the equations for the curve become
 	\begin{eqnarray*}
@@ -431,7 +441,7 @@
  	 \[
  	 a=s''(t) \vec{T}+\kappa s'(t)^2 \vec{N}
  	 \]
- 	 Where $\vec{T}$ is the unit tangent vector and $\vec{N}$ is the unit normal vector.
+ 	 Where $\vec{T}$ is the unit tangent vector and $\vec{N}$ is the unit normal vector, $s(t)$ is the curve length, $s'(t) = \frac{ds}{dt}$ and $s''(t) = \frac{d^2 s}{dt^2}$.
  	 \item If the car/train is going round the curve at constant speed $s'(t)=constant$ and $s''(t)=0$.	
  	 \item The acceleration at constant speed only depends on the curvature $\kappa$ and speed $s'(t)$ in the direction of the normal vector.
 	\end{itemize}
