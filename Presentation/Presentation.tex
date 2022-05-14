@@ -1,5 +1,4 @@
 \documentclass{beamer}
-
 \usetheme{Copenhagen}
 
 \title{The Euler Spiral}
@@ -30,71 +29,35 @@
 		\end{definition}
 \end{frame}
 
-\begin{frame}{Length of a curve}
+\begin{frame}{Length of a curve segment}
 	\begin{figure}
-	\centering
-	\includegraphics[width=70mm, scale=0.4]{curve_length_2.png}
+		\centering
+		\includegraphics[width=70mm, scale=0.2]{curve_length_2.png}
 	\end{figure}
 	\begin{itemize}
-	\item When $\Delta t = t_2 - t_1$ is small
-	\item $\Delta s \approx	\sqrt{\left(\Delta x\right)^2 + \left(\Delta y\right)^2} $
+		\item When $\Delta t = t_2 - t_1$ is small
+		\item $\Delta s \approx	\sqrt{\left(\Delta x\right)^2 + \left(\Delta y\right)^2} $
+		\item $\frac{\Delta s}{\Delta t} \approx	\sqrt{\left(\frac{\Delta x}{\Delta t}\right)^2 + \left(\frac{\Delta y}{\Delta t}\right)^2 } $
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Length of a curve segment}	
-	\begin{itemize}
-		\item From the \emph{mean value theorem} there exits a $t_x \in [t_1, t_2]$ such that	
+\begin{frame}{Length of a curve}
+		\begin{itemize}
+		\item As $\Delta t \to 0$
 		\[
-			\Delta x = x'(t_x) \Delta t
+			\frac{ds}{dt} = \sqrt{\left( \frac{dx}{dt} \right)^2 + \left( \frac{dy}{dt}\right)^2}
 		\]
-		where $x'(t_x) = \frac{dx}{dt}\big|_{t=t_x}$
-		\item Similarly there exists $t_y \in [t_1, t_2]$ such that 
+		\item Integrate with respect to $t$ 
 		\[
-			\Delta y = y'(t_y) \Delta t
+		s =\int_{a}^{b} \sqrt{x'(t)^2 + y'(t)^2}dt
 		\]
-		where $y'(t_y) = \frac{dy}{dt}\big|_{t=t_y}$ 
-		\item 
-		\[
-			\Delta s \approx \sqrt{x'(t_x)^2 + y'(t_y)^2} \Delta t
-		\]
-	\end{itemize}
-\end{frame}
-
-\begin{frame}{Derivation arc length integral}
-	
-	\begin{itemize}
-		\item Partition the domain $(a,b)$ into $n$ small intervals: Let $t_0, t_1, \dots t_n$ be such that $t_0=a$ and $t_n=b$ and $t_{i-1} < t_{i}$ for all $i=1, \dots n$. 
-		\item The whole curve length, $S$, is sum of curve length segments between each $(x(t_{i-1}), y(t_{i-1}))$ and $(x(t_i), y(t_i))$.  
-		\begin{figure}
-			\centering
-			% \includegraphics[width=50mm, scale=0.4]{Arc length Integral.png}
-			\includegraphics[width=100mm, scale=0.4]{curve_length_total.png}
-		\end{figure}
-	\end{itemize}
-\end{frame}
-
-\begin{frame}{Derivation arc length integral}
-	
-	\begin{itemize}
-		\item Approximate, $S$, with a Riemann sum 
-		\[
-		S \approx \sum\limits^{n}_{i=1} \sqrt{x'(t_{x_i})^2 + y'(t_{y_i})^2} \Delta t_i 
-		\] 
-		where $\Delta t_i = t_i-t_{i-1}$
-		$t_{x_i} \in [t_{i-1}, t_{i}]$ and $t_{y_i} \in [t_{i-1}, t_{i}]$ for all $i$.
-		\item Let $n \to \infty$ such that $\Delta t_i \to 0$ for all $i$ then
-		\begin{eqnarray*}
-			S &=& \lim_{n \to \infty} \sum\limits^{n}_{i=1} \sqrt{x'(t_{x_i})^2 + y'(t_{y_i})^2} \Delta t_i \\
-			& = & \int_{t=a}^{t=b} \sqrt{x'(t)^2 + y'(t)^2 } dt
-		\end{eqnarray*}
-	\end{itemize}
-\end{frame}
-
-\begin{frame}{Arc length integral}
+		where $x'(t) = \frac{dx}{dt}$ and $y'(t) = \frac{dy}{dt}$
+		\end{itemize}
 	\begin{theorem}[Arc Length]
 		The arc length between two points, $t = a$ and $t = b$, on the curve is given by
-		S = $\int_{a}^{b} \sqrt{\left( \frac{dy}{dt} \right)^2 + \left( \frac{dx}{dt} \right)^2 }dt$
-	\end{theorem}
+		$s =\int_{a}^{b} \sqrt{x'(t)^2 + y'(t)^2}dt$
+	\end{theorem}	
+  
 \end{frame}
 
 \begin{frame}{Deriving formula for curvature}
@@ -162,14 +125,14 @@
 			        &=& \frac{x'(t) y''(t) - y'(t) x''(t)}{\left(x'(t)^2 + y'(t)^2 \right)^{3/2}}
 		\end{eqnarray*}
 		
-		\item Curvature, $\kappa$ =\alert{ $\frac1r $}
+		\item Curvature, $\kappa = \frac1r$
 	\end{itemize}
 	
 \end{frame}
 
 \begin{frame}{How curved is a curve?}
 	\begin{Theorem}[Curvature]
-		The curvature of curve is $\kappa$ which is the reciprocal of the radius of the {\alert{osculating circle}} given by
+		The curvature of curve is $\kappa$ which is the reciprocal of the radius of the osculating circle given by
 		\[
 		\kappa=\frac{x'(t) y''(t) - y'(t) x''(t)}{\left( x'(t)^2 + y'(t)^2 \right)^{3/2}}
 		\]
@@ -246,18 +209,20 @@
 \end{frame}
 
 \begin{frame}{Relating curve length to curvature}
-	This gives us the following for slope, arc length and curvature
+	The slope, arc length and curvature now are:
 	\begin{eqnarray*}
 	\frac{dy}{dx} &=& \frac{\sin f(t)}{\cos f(t)} = \tan f(t) \\
  	s &=& \int_0^t \sqrt{\cos^2 f(u) + \sin^2 f(u)} du = t \\
  	\kappa &=& \frac{f'(t) \cos^2 f(t) + f'(t) \sin^2 f(t)}{\cos^2 f(t) + \sin^2 f(t)} = f'(t)
  \end{eqnarray*}
+	\begin{enumerate}
+		\item We can replace the variable $t$ by arc length $s$.
+		\item And curvature at point $t$ is $f'(t)$. 
+	\end{enumerate}
 \end{frame}
 
 \begin{frame}{Define the curve by curve length and curvature}
-	We can replace the variable $t$ by the arc length $s$.
-	 
-	And the curvature at point $t$ is $f'(t)$. Which means
+	 This all implies
 	 \[
 	 f(u) = \int_{0}^{u} \kappa(t) dt
 	 \]
@@ -266,23 +231,26 @@
 	x = x(s) &=& \int_{0}^{s} \cos \left( \int_0^u \kappa(t) dt \right) du \\
 	y = y(s) &=& \int_{0}^{s} \sin \left( \int_0^u \kappa(t) dt \right) du
 	\end{eqnarray*}
-	Hence the curve is defined by arc length and curvature alone.
+	Hence the curve is defined by arc length and curvature alone!
 \end{frame}
 
 \begin{frame}{A very simple example}
-	We can make the curvature $\kappa$ constant and equal to 1. Then 
+	Suppose the curvature $\kappa$ constant and equal to 1. 
+	\linebreak
+	\linebreak
+	Then 
 	$ \int_0^u \kappa(t) dt = u $ and
 	\begin{eqnarray*}
 		x = x(s) &=& \int_{0}^{s} \cos u du = \sin s\\
 		y = y(s) &=& \int_{0}^{s} \sin u du = - \cos s + 1
 	\end{eqnarray*}
-	which is the parametric curve for a circle with centre $(0, 1)$ and radius $1$.
+	which is the parametric curve for a circle with centre $(0, 1)$ and radius $1$ - as expected.
 	
 \end{frame}
 
 
 \begin{frame}{The Euler spiral}
-	Recall: Euler defined his curve as one where the curvature is proportional to arc length.
+	Euler defined his curve as one where the curvature is proportional to arc length.
 	
 	\begin{center}
 		\boxed{\kappa(s) = s}
@@ -305,19 +273,19 @@
 		
 		\includegraphics[width=100mm, scale=0.7]{euler_scripture.png}
 		
-		\item In 1781 he proved the integrals for limits between 0 and $\infty$ are equal to  $\frac{a \sqrt{\pi}}{2}$ 
+		\item In 1781 he proved the integrals for limits between 0 and $\infty$ are equal to  $\frac{a \sqrt{\pi}}{2}$ where $a=1$ for the Euler spiral.
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Solving the integrals: Fresnel and Cornu}
+\begin{frame}{Solving the integrals: Fresnel}
 	\begin{itemize}
 		\item Fresnel rediscovered these integrals when investigating the diffraction of light through a slit. He showed that the light intensity (under some assumptions) was 
 		\[
 		\left( \int_{0}^{s}\cos \left( \pi t^2 / 2 \right) dt \right) ^2 + 
 		\left( \int_{0}^{s}\sin \left( \pi t^2 / 2 \right) dt \right) ^2
 		\] 
-		\item Up to a factor of $\pi$ the integrals are the same as the ones Euler derived.
-		\item These integrals are now called the \emph{Fresnel integrals}.
+		\item These integrals are the same as the ones Euler derived (up to a factor of $\pi$).
+		\item Integrals are called the \emph{Fresnel integrals}.
 		\item Fresnel calculated them for values of $s$ between 0.1 and 5.1.
 	\end{itemize}
 \end{frame}
@@ -331,7 +299,6 @@
 		\end{column}
 		\begin{column}{0.5\textwidth}
 		Nowadays computers and numerical methods are used to evaluate these integrals.
-			
 		\end{column}
 	\end{columns}
 \end{frame}
@@ -347,7 +314,7 @@
 
 \begin{frame}{The Euler Spiral}
 	\begin{figure}
-		\caption{The Euler spiral aka Cornu curve}
+		\caption{The Euler spiral aka Cornu spiral}
 		\centering
 		\includegraphics[width=70mm, scale=0.5]{euler_spiral.png}
 	\end{figure}
@@ -412,38 +379,30 @@
 	\end{figure}
 \end{frame}
 
-\begin{frame}{A major use of the Euler Spiral}
+\begin{frame}{Application: Designing roads and railways}
 	\begin{itemize}
-		\item In the 19th century, the Euler spiral was rediscovered by railway designers.
-		\item They realised that a track shape with gradually varying curvature provided a smoother riding experience.
-		\item In 1899 Arthur Talbot solved the design problem mathematically deriving the same integrals as Fresnel.
-		\item His series expansion for the integrals was almost identical to Euler's 1744 series. 
+		\item Euler's spiral was rediscovered by railway designers in the 19th century.
+		\item Transition curves link straight sections of roads or railways.
+		\item Designed to give passengers a smooth ride with no sudden changes in acceleration.
 	\end{itemize}
-\end{frame}
-
-\begin{frame}{Designing roads and railways}
-	\begin{itemize}
-		\item Transition curves are used to link straight sections of motorways or railways.
-		\item They are designed to give passengers a smooth ride with no sudden changes in acceleration.
-
-	\end{itemize}
-		\begin{figure}
+	\begin{figure}
 		\caption{Cloverleaf motorway interchange}
 		\centering
-		\includegraphics[width=50mm, scale=0.5]{cloverleaf_motorway.png}
+		\includegraphics[width=40mm, scale=0.5]{cloverleaf_motorway.png}
 	\end{figure}
 
 \end{frame}
 
 \begin{frame}{Why transition curves are Euler spirals}
 	\begin{itemize}
-	\item The acceleration along the transition curve is given by
+	\item Acceleration along a transition curve is
  	 \[
  	 a=s''(t) \vec{T}+\kappa s'(t)^2 \vec{N}
  	 \]
- 	 Where $\vec{T}$ is the unit tangent vector and $\vec{N}$ is the unit normal vector, $s(t)$ is the curve length, $s'(t) = \frac{ds}{dt}$ and $s''(t) = \frac{d^2 s}{dt^2}$.
+ 	 where $\vec{T}$ is the unit tangent vector and $\vec{N}$ is the unit normal vector, $s(t)$ is the curve length, $s'(t) = \frac{ds}{dt}$ and $s''(t) = \frac{d^2 s}{dt^2}$.
  	 \item If the car/train is going round the curve at constant speed $s'(t)=constant$ and $s''(t)=0$.	
- 	 \item The acceleration at constant speed only depends on the curvature $\kappa$ and speed $s'(t)$ in the direction of the normal vector.
+ 	 \item The acceleration at constant speed depends on the curvature $\kappa$ and speed $s'(t)$ in the direction of the normal vector.
+ 	 \item For smooth ride curvature should increase with curve length.
 	\end{itemize}
 \end{frame}
 
@@ -470,8 +429,7 @@
 		\begin{column}{0.33\textwidth}
 			Note: Acceleration is a step function. 
 			
-			
-			As a passenger you would feed the full centrifugal force ({\alert{$F=mv^2/r$}}) pushing you outward the moment you entered the curve. 		
+			As a passenger you feel the full centrifugal force ($F=mv^2/r$) pushing you outward the moment you entered the curve. 		
 		\end{column}
 	\end{columns}
 \end{frame}
@@ -480,19 +438,17 @@
 \begin{frame}{Case 2: Euler spiral transition curves}
 	\begin{itemize}
 		\item A closed track with same width and height. 
-		\item Replace semicircles with two parts of an Euler Spiral.
-		\item Recall that the curvature is proportional to arc length. $\kappa = \alpha s $ for some $\alpha$.
-		\item The width and height of an Euler Spiral that turns through $\pi/2$ is given by 
+		\item Replace semicircles with two half Euler Spirals.
+		\item Curvature is proportional to arc length: $\kappa(s) = \alpha s $ for some $\alpha$.
+		\item Width and height of an Euler Spiral that turns through $\pi/2$ is 
 		\begin{eqnarray*}
 			width &=& \sqrt{\pi / \alpha} C(1) \\
 			height &=& \sqrt{\pi /\alpha}S(1)
 		\end{eqnarray*}
 		where $S(u)$ and $C(u)$ are the standard Fresnel integrals.
-	
 	\end{itemize}
-	
 	\[
-	\alpha = \frac{\pi S(1)^2}{r^2} \approx 5.95 \times 10 ^{-6}
+		\alpha = \frac{\pi S(1)^2}{r^2} \approx 5.95 \times 10 ^{-6}
 	\]
 	
 \end{frame}
@@ -509,7 +465,7 @@
 		\begin{column}{0.33\textwidth}
 			Note: Acceleration increases linearly as we move through the curve.
 			
-			Howvever the maximum acceleration at the apex is greater than with the semicircular track but the ride is now more comfortable.
+			The maximum acceleration at the apex is greater than with the semicircular track but the ride is now more comfortable.
 					
 		\end{column}
 	\end{columns}

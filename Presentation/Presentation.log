@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.30)  9 MAY 2022 21:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.30)  13 MAY 2022 21:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -771,24 +771,24 @@ File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 ) (Presentation.aux)
 \openout1 = `Presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -850,7 +850,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 8.
+Package hyperref Info: Link coloring OFF on input line 7.
 
 (C:\Users\maxmu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -864,65 +864,65 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count340
 )
-LaTeX Info: Redefining \ref on input line 8.
-LaTeX Info: Redefining \pageref on input line 8.
-LaTeX Info: Redefining \nameref on input line 8.
+LaTeX Info: Redefining \ref on input line 7.
+LaTeX Info: Redefining \pageref on input line 7.
+LaTeX Info: Redefining \nameref on input line 7.
  (Presentation.out) (Presentation.out)
 \@outlinefile=\write5
 \openout5 = `Presentation.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 8.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 7.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 8.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 7.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 8.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 8.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 8.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 8.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 7.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 8.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 8.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 8.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 7.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 8.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 8.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 8.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 7.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 8.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 8.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 7.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 8.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 7.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 8.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 8.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 8.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 8.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 8.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 8.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 8.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 7.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 7.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 8
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 7
 .
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 8
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 7
 .
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 8.
+ut line 7.
 
 (C:\Users\maxmu\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
 asic-dictionary-English.dict
@@ -952,20 +952,20 @@ Dictionary: translator-theorem-dictionary, Language: English
 {C:/Users/maxmu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
 
 
 (C:\Users\maxmu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
 
 
 (C:\Users\maxmu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 31.
+ut line 30.
 
 (C:\Users\maxmu\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathk
 erncmss.fd
@@ -978,222 +978,207 @@ thkerncmss.
 File: curve_length_2.png Graphic file (type png)
 <use curve_length_2.png>
 Package pdftex.def Info: curve_length_2.png  used on input line 42.
-(pdftex.def)             Requested size: 223.1658pt x 113.60641pt.
+(pdftex.def)             Requested size: 111.5829pt x 56.8032pt.
  [4
 
  <./curve_length_2.png>] [5
 
 ]
-<curve_length_total.png, id=164, 580.0872pt x 152.0079pt>
-File: curve_length_total.png Graphic file (type png)
-<use curve_length_total.png>
-Package pdftex.def Info: curve_length_total.png  used on input line 74.
-(pdftex.def)             Requested size: 232.03076pt x 60.80208pt.
- [6
-
- <./curve_length_total.png>]
-[7
-
-] [8
-
-]
-<curvature_illustration.png, id=245, 332.08064pt x 357.37515pt>
+<curvature_illustration.png, id=164, 332.08064pt x 357.37515pt>
 File: curvature_illustration.png Graphic file (type png)
 <use curvature_illustration.png>
-Package pdftex.def Info: curvature_illustration.png  used on input line 129.
+Package pdftex.def Info: curvature_illustration.png  used on input line 92.
 (pdftex.def)             Requested size: 132.8299pt x 142.94753pt.
 
-Overfull \hbox (19.3507pt too wide) in paragraph at lines 129--129
+Overfull \hbox (19.3507pt too wide) in paragraph at lines 92--92
  [] 
  []
 
-[9
+[6
 
  <./curvature_illustration.png>]
-<curvature_illustration_2.png, id=275, 328.3467pt x 283.5393pt>
+<curvature_illustration_2.png, id=194, 328.3467pt x 283.5393pt>
 File: curvature_illustration_2.png Graphic file (type png)
 <use curvature_illustration_2.png>
-Package pdftex.def Info: curvature_illustration_2.png  used on input line 154.
+Package pdftex.def Info: curvature_illustration_2.png  used on input line 117.
 (pdftex.def)             Requested size: 213.42282pt x 184.29836pt.
 
-Overfull \hbox (63.16278pt too wide) in paragraph at lines 154--154
+Overfull \hbox (63.16278pt too wide) in paragraph at lines 117--117
  [] 
  []
 
-[10
+[7
 
- <./curvature_illustration_2.png>] [11
+ <./curvature_illustration_2.png>] [8
 
 ]
-<Curvature_circle.png, id=333, 376.40625pt x 282.05376pt>
+<Curvature_circle.png, id=253, 376.40625pt x 282.05376pt>
 File: Curvature_circle.png Graphic file (type png)
 <use Curvature_circle.png>
-Package pdftex.def Info: Curvature_circle.png  used on input line 181.
+Package pdftex.def Info: Curvature_circle.png  used on input line 144.
 (pdftex.def)             Requested size: 150.55983pt x 112.81949pt.
- [12
+ [9
 
- <./Curvature_circle.png>]
-[13
+ <./Curvature_circle.png>] [10
 
 ]
-<Parabola_Arc_Length.png, id=388, 641.39626pt x 370.38374pt>
+<Parabola_Arc_Length.png, id=307, 641.39626pt x 370.38374pt>
 File: Parabola_Arc_Length.png Graphic file (type png)
 <use Parabola_Arc_Length.png>
-Package pdftex.def Info: Parabola_Arc_Length.png  used on input line 216.
+Package pdftex.def Info: Parabola_Arc_Length.png  used on input line 179.
 (pdftex.def)             Requested size: 256.55396pt x 148.15086pt.
- [14
+
+[11
 
  <./Parabola_Arc_Length.png>]
-<Parabola.png, id=416, 654.64575pt x 339.06676pt>
+<Parabola.png, id=335, 654.64575pt x 339.06676pt>
 File: Parabola.png Graphic file (type png)
 <use Parabola.png>
-Package pdftex.def Info: Parabola.png  used on input line 233.
+Package pdftex.def Info: Parabola.png  used on input line 196.
 (pdftex.def)             Requested size: 261.85365pt x 135.62428pt.
- [15
+ [12
 
- <./Parabola.png>] [16
+ <./Parabola.png>] [13
 
-] [17
+] [14
 
-] [18
+] [15
 
-]
-[19
-
-] [20
+] [16
 
 ]
-<euler_scripture_1.png, id=575, 225.84375pt x 34.9305pt>
+[17
+
+]
+<euler_scripture_1.png, id=494, 225.84375pt x 34.9305pt>
 File: euler_scripture_1.png Graphic file (type png)
 <use euler_scripture_1.png>
-Package pdftex.def Info: euler_scripture_1.png  used on input line 310.
+Package pdftex.def Info: euler_scripture_1.png  used on input line 278.
 (pdftex.def)             Requested size: 112.92159pt x 17.4652pt.
-<euler_scripture.png, id=576, 495.0495pt x 76.48575pt>
+<euler_scripture.png, id=495, 495.0495pt x 76.48575pt>
 File: euler_scripture.png Graphic file (type png)
 <use euler_scripture.png>
-Package pdftex.def Info: euler_scripture.png  used on input line 310.
+Package pdftex.def Info: euler_scripture.png  used on input line 278.
 (pdftex.def)             Requested size: 346.53227pt x 53.53963pt.
- [21
+ [18
 
- <./euler_scripture_1.png> <./euler_scripture.png>] [22
+ <./euler_scripture_1.png> <./euler_scripture.png>] [19
 
 ]
-<code_1.png, id=631, 333.04425pt x 177.66376pt>
+<code_1.png, id=551, 333.04425pt x 177.66376pt>
 File: code_1.png Graphic file (type png)
 <use code_1.png>
-Package pdftex.def Info: code_1.png  used on input line 337.
+Package pdftex.def Info: code_1.png  used on input line 304.
 (pdftex.def)             Requested size: 166.52171pt x 88.83165pt.
-<code_2.png, id=632, 533.5935pt x 235.47975pt>
+<code_2.png, id=552, 533.5935pt x 235.47975pt>
 File: code_2.png Graphic file (type png)
 <use code_2.png>
-Package pdftex.def Info: code_2.png  used on input line 337.
+Package pdftex.def Info: code_2.png  used on input line 304.
 (pdftex.def)             Requested size: 266.7961pt x 117.73958pt.
- [23
+ [20
 
  <./code_1.png> <./code_2.png>]
-<euler_x_vs_y.png, id=661, 395.4775pt x 265.99374pt>
+<euler_x_vs_y.png, id=581, 395.4775pt x 265.99374pt>
 File: euler_x_vs_y.png Graphic file (type png)
 <use euler_x_vs_y.png>
-Package pdftex.def Info: euler_x_vs_y.png  used on input line 346.
+Package pdftex.def Info: euler_x_vs_y.png  used on input line 313.
 (pdftex.def)             Requested size: 197.73827pt x 132.99654pt.
- [24
+ [21
 
  <./euler_x_vs_y.png>]
-<euler_spiral.png, id=690, 290.08376pt x 248.93pt>
+<euler_spiral.png, id=610, 290.08376pt x 248.93pt>
 File: euler_spiral.png Graphic file (type png)
 <use euler_spiral.png>
-Package pdftex.def Info: euler_spiral.png  used on input line 355.
+Package pdftex.def Info: euler_spiral.png  used on input line 322.
 (pdftex.def)             Requested size: 145.04152pt x 124.46469pt.
- [25
+ [22
 
  <./euler_spiral.png>]
-<Euler_first_drawing.png, id=719, 487.8225pt x 421.575pt>
+<Euler_first_drawing.png, id=638, 487.8225pt x 421.575pt>
 File: Euler_first_drawing.png Graphic file (type png)
 <use Euler_first_drawing.png>
-Package pdftex.def Info: Euler_first_drawing.png  used on input line 373.
+Package pdftex.def Info: Euler_first_drawing.png  used on input line 340.
 (pdftex.def)             Requested size: 122.9164pt x 106.2233pt.
-<Euler second drawing.png, id=720, 248.72925pt x 211.992pt>
+<Euler second drawing.png, id=639, 248.72925pt x 211.992pt>
 File: Euler second drawing.png Graphic file (type png)
 <use Euler second drawing.png>
-Package pdftex.def Info: Euler second drawing.png  used on input line 373.
+Package pdftex.def Info: Euler second drawing.png  used on input line 340.
 (pdftex.def)             Requested size: 138.2795pt x 117.8575pt.
 
-[26
+[23
 
  <./Euler_first_drawing.png> <./Euler second drawing.png>]
-<chaise_longue.png, id=750, 597.23125pt x 199.74625pt>
+<chaise_longue.png, id=669, 597.23125pt x 199.74625pt>
 File: chaise_longue.png Graphic file (type png)
 <use chaise_longue.png>
-Package pdftex.def Info: chaise_longue.png  used on input line 381.
+Package pdftex.def Info: chaise_longue.png  used on input line 348.
 (pdftex.def)             Requested size: 298.61488pt x 99.87288pt.
- [27
+ [24
 
  <./chaise_longue.png>]
-<s_squared_minus_219.png, id=778, 160.6pt x 248.93pt>
+<s_squared_minus_219.png, id=697, 160.6pt x 248.93pt>
 File: s_squared_minus_219.png Graphic file (type png)
 <use s_squared_minus_219.png>
-Package pdftex.def Info: s_squared_minus_219.png  used on input line 389.
+Package pdftex.def Info: s_squared_minus_219.png  used on input line 356.
 (pdftex.def)             Requested size: 32.11942pt x 49.78511pt.
- [28
+ [25
 
  <./s_squared_minus_219.png>]
-<five_s^4.png, id=806, 373.395pt x 213.79875pt>
+<five_s^4.png, id=726, 373.395pt x 213.79875pt>
 File: five_s^4.png Graphic file (type png)
 <use five_s^4.png>
-Package pdftex.def Info: five_s^4.png  used on input line 397.
+Package pdftex.def Info: five_s^4.png  used on input line 364.
 (pdftex.def)             Requested size: 186.69704pt x 106.89911pt.
- [29
+ [26
 
  <./five_s^4.png>]
-<elegant_madness.png, id=834, 470.75874pt x 577.15625pt>
+<elegant_madness.png, id=754, 470.75874pt x 577.15625pt>
 File: elegant_madness.png Graphic file (type png)
 <use elegant_madness.png>
-Package pdftex.def Info: elegant_madness.png  used on input line 405.
+Package pdftex.def Info: elegant_madness.png  used on input line 372.
 (pdftex.def)             Requested size: 94.15007pt x 115.4292pt.
- [30
+ [27
 
  <./elegant_madness.png>]
-<sinh.png, id=862, 605.26125pt x 167.62625pt>
+<sinh.png, id=782, 605.26125pt x 167.62625pt>
 File: sinh.png Graphic file (type png)
 <use sinh.png>
-Package pdftex.def Info: sinh.png  used on input line 413.
+Package pdftex.def Info: sinh.png  used on input line 380.
 (pdftex.def)             Requested size: 302.62987pt x 83.81291pt.
- [31
+ [28
 
- <./sinh.png>] [32
-
-]
-<cloverleaf_motorway.png, id=917, 399.29175pt x 365.56575pt>
+ <./sinh.png>]
+<cloverleaf_motorway.png, id=810, 399.29175pt x 365.56575pt>
 File: cloverleaf_motorway.png Graphic file (type png)
 <use cloverleaf_motorway.png>
-Package pdftex.def Info: cloverleaf_motorway.png  used on input line 436.
+Package pdftex.def Info: cloverleaf_motorway.png  used on input line 394.
 (pdftex.def)             Requested size: 199.64539pt x 182.78242pt.
- [33
+ [29
 
- <./cloverleaf_motorway.png>] [34
+ <./cloverleaf_motorway.png>] [30
+
+] [31
 
 ]
-[35
-
-]
-<circular_track.png, id=997, 507.8975pt x 469.755pt>
+<circular_track.png, id=891, 507.8975pt x 469.755pt>
 File: circular_track.png Graphic file (type png)
 <use circular_track.png>
-Package pdftex.def Info: circular_track.png  used on input line 477.
+Package pdftex.def Info: circular_track.png  used on input line 435.
 (pdftex.def)             Requested size: 101.5777pt x 93.94933pt.
- [36
 
- <./circular_track.png>] [37
+[32
+
+ <./circular_track.png>] [33
 
 ]
-<euler_track.png, id=1052, 511.9125pt x 469.755pt>
+<euler_track.png, id=945, 511.9125pt x 469.755pt>
 File: euler_track.png Graphic file (type png)
 <use euler_track.png>
-Package pdftex.def Info: euler_track.png  used on input line 517.
+Package pdftex.def Info: euler_track.png  used on input line 473.
 (pdftex.def)             Requested size: 102.38068pt x 93.94933pt.
- [38
+ [34
 
- <./euler_track.png>] [39
+ <./euler_track.png>] [35
 
 ]
 \tf@nav=\write6
@@ -1211,13 +1196,13 @@ Package rerunfilecheck Info: File `Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22095 strings out of 478582
- 438453 string characters out of 2844344
- 678789 words of memory out of 3000000
- 39713 multiletter control sequences out of 15000+600000
+ 22066 strings out of 478582
+ 437950 string characters out of 2844344
+ 678788 words of memory out of 3000000
+ 39693 multiletter control sequences out of 15000+600000
  482103 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,122p,418b,637s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 128i,15n,122p,439b,637s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/maxmu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmex10.pfb><C:/Users/maxmu/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmmi10.pfb><C:/Users/maxmu/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -1234,9 +1219,9 @@ Users/maxmu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi1
 e1/public/amsfonts/cm/cmsy6.pfb><C:/Users/maxmu/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/maxmu/AppData/Local/Programs/
 MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Presentation.pdf (39 pages, 2082274 bytes).
+Output written on Presentation.pdf (35 pages, 1973259 bytes).
 PDF statistics:
- 1185 PDF objects out of 1200 (max. 8388607)
- 83 named destinations out of 1000 (max. 500000)
- 170 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1075 PDF objects out of 1200 (max. 8388607)
+ 75 named destinations out of 1000 (max. 500000)
+ 165 words of extra memory for PDF output out of 10000 (max. 10000000)
 
