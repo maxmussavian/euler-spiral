@@ -1,16 +1,11 @@
-\documentclass[]{article} % use larger type; default would be 10pt
+\documentclass[12pt]{article} % use larger type; default would be 10pt
 \usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
 
-%no indented paragrapsh!
 \setlength{\parindent}{0in}
 \setlength{\parskip}{0.2in}
 
-%%% Examples of Article customizations
-% These packages are optional, depending whether you want the features they provide.
-% See the LaTeX Companion or other references for full information.
-%%% PAGE DIMENSIONS
 \usepackage{geometry} % to change the page dimensions
-\geometry{a4paper} % or letterpaper (US) or a5paper or....
+\geometry{a4paper} %
 \geometry{top=0.5in}
 \usepackage{graphicx,color} % support the \includegraphics command and options
 %primary color palette
@@ -36,6 +31,8 @@
 
 \theoremstyle{theorem}
 \newtheorem{theorem}{Theorem}[section]
+
+\AddToHook{cmd/section/before}{\clearpage}
 
 \title{The Euler Spiral: Speaking Notes}
 \author{Max Mussavian}
@@ -164,7 +161,7 @@ Curvature is defined as the reciprocal of the radius of a circle which approxima
 
 For the osculating circle the small circular segment or arc $\Delta s$ spanned by the small central angle $\Delta \theta$ must be equal to the arc length of the curve at that point. In which case $\Delta s = r \Delta \theta$.
 
-As before, we let $\Delta t \to 0$ i.e. $\Delta \theta \to 0$ and $\Delta s \to 0$ we get that in the limit $\frac{1}{r}=\frac{d\theta}{ds}$.
+We let $\Delta \theta \to 0$ so that in the limit $\frac{1}{r}=\frac{d\theta}{ds}$.
 
 We calculate $\frac{d\theta}{ds}$ in two parts. First we calculate the rate of change of $s$ w.r.t. $t$, $\frac{d\theta}{ds}$ which we already know.
 
@@ -196,9 +193,9 @@ Using the definition of $\tan$ we have that the angle $\theta$ must satisfy  $\t
 
 Taking first derivatives w.r.t. $t$ we get on the left hand side $\sec ^2 \theta \frac{d\theta}{dt}$ and on the right had side $\frac{x'(t) y''(t) - y'(t) x''(t)}{x'(t)^2}$ using the quotient rule for derivatives.
 
-Again using some trigonometric definitions we have that $sec^2\theta = tan^2\theta +1 = \frac{{x'(t)^2+y'(t)^2}}{x'(t)^2}$ 
+Again using some trigonometric definitions we have that $sec^2\theta = tan^2\theta +1$ 
 
-Finally collecting all the terms to the right hand side we have derived a formula for the rate of change of $theta$ the central angle with respect to the parameter $t$ of the curve.
+Finally collecting all the terms to the right hand side we have derived a formula for the rate of change of $\theta$ the central angle with respect to the parameter $t$ of the curve.
 
 Again note that we are using the double dash-notation for the second derivates of $x$ and $y$.
 
@@ -215,7 +212,7 @@ Again note that we are using the double dash-notation for the second derivates o
 	\end{itemize}
 \end{tcolorbox}
 
-Now we can put the two equations for the rate of change of the arc length and the rate of change of the central angle.
+Now we can put the two equations for the rate of change of the arc length and the rate of change of the central angle together.
 
 Finally we note that the curvature is the reciprocal of the osculating circle.
 
@@ -235,9 +232,13 @@ Finally we note that the curvature is the reciprocal of the osculating circle.
 
 Thus we get our result for curvature. 
 
-Even thought the formula looks a bit scary, you should think about the length of the radius $R$ at any point $P$ for curve $C$.
+The smaller the radius the greater the curvature.
 
-One thing to note straight away is that if $x''(t)=0$ and $y''(t)=0$ then curve has no curvature - which are of course straight lines. So we need at least one of $x''(t)$ and $y''(t)$ to be non-zero for some $t$ for the curve to have curvature.
+Conversely the greater the radius the smaller the curvature.
+
+If both $x''(t)=0$ and $y''(t)=0$ then curve has no curvature - which is of course a straight line. For a straight line the osculating circle has infinite radius!
+
+So for the curve to have curvature, we need at least one of $x''(t)$ and $y''(t)$ to be non-zero for some $t$.
 
 Let's look at two simple examples to understand parametric curves, curvature and arc length.
 
@@ -338,7 +339,7 @@ Why does this turn out to be a ``good'' parametrization? Let's use the formulas 
 	\end{enumerate}
 \end{tcolorbox}
 
-We saw from the derivation of the curvature that the slow of the curve or the tangent at any point is just $\frac{x'(t)}{x'(t)}$ which we can relate to the angle for the tangent to the $x$-axis.
+We saw from the derivation of the curvature that the slope of the curve or the tangent at any point is just $\frac{y'(t)}{x'(t)}$ which we can relate to the angle for the tangent to the $x$-axis.
 
 More importantly we have that $s=t$. Thus we have gotten rid of the nuisance parameter $t$ and replaced it with a natural parameter $s$ the curve length.
 
@@ -382,7 +383,7 @@ This is a special case of a advanced theorem in differential geometry called the
 	which is the parametric curve for a circle with centre $(0, 1)$ and radius $1$ - as expected.
 \end{tcolorbox}
 
-We know that the curvature is constant for a circle. Do we get back the equation for a circle if we use this curvature function? The answer is yes? Which is unique up to a translation of the curve.
+We know that the curvature is constant for a circle. Do we get back the equation for a circle if we use this curvature function? The answer is yes?
 
 
 \section{The Euler spiral}
@@ -407,11 +408,6 @@ In this case we have that the integrand for $x$ and $y$ becomes $\cos \frac{u^2}
 
 This is exactly the formulation derived by Euler in 1744. But why did Euler come up with this formulation in the first place and how did he try to solve these integrals?
 
-These integrals solve the ``Cantilever Problem'' first posed in 1694 James Bernoulli. He asked: What shape must a pre-curved thin beam fixed at one end have in order to be horizontal and straight when a weight is added to the non fixed end? He claimed the curvature increased along the beam and was proportional to the distance along the beam. But he never provided a proof.
-
-[If I have time pull out a ruler and show]
-
-It was not until 1744 that Euler proved the result and attempted his first calculations.
 
 \section{Solving the integrals: Euler}
 \begin{tcolorbox}
@@ -461,9 +457,7 @@ In 1874 Alfred Cornu calculated values and plotted the Euler spiral accurately. 
 	Nowadays computers and numerical methods are used to evaluate these integrals.
 \end{tcolorbox}
 
-To solve these integrals I used a numerical quadrature technique available in the Python Scipy package which is very fast and efficient. 
-
-For the Euler spiral and other curves that I will show you I evaluated the integrand and passed it to a function that evaluated the x and y coordinates for a range of arc length values.
+To solve these integrals I used a numerical integration technique available in the Python, which  are very fast and easy to use. 
 
 \section{The Euler spiral - $x$ $y$ Coordinates}
 \begin{tcolorbox}
@@ -477,9 +471,11 @@ For the Euler spiral and other curves that I will show you I evaluated the integ
 
 Here I show the $x$ and the $y$ coordinate i.e. the Fresnel integrals.
 
-We can see the sinusoidal motion as we increase the arc length with dampening as we converge to the asymptotes. 
+We can see the sinusoidal curve as the arc length increases.
 
-We also see that they seem to converge to $\pm \frac{\sqrt{\pi}}{2}$ as calculated by Euler. 
+The oscillations dampening as the arc length increases. 
+
+We also see that they seem to converge to the limits calculated by Euler: $\pm \frac{\sqrt{\pi}}{2}$. 
 
 \section{The Euler Spiral}
 \begin{tcolorbox}
@@ -516,11 +512,19 @@ In contrast when $s>0$ the curvature is positive, i.e. the curve is turning \emp
 
 \end{tcolorbox}
 
-In these pictures we see Euler's first drawing of part of this curve. The figure on the left shows the solution to the cantilever problem.
+In these pictures we see Euler's first drawings of part of this curve. 
 
-The curve $a B$ is the pre-curved beam before the weight has been put on one end. Notice how the curve starts flat and gets more curved as it reaches the fixed end.
+The figure on the left shows his solution to the ``Cantilever problem''.
 
-Euler's argument was that when the curve is horizontal and in equilibrium the clockwise moment $M$ due to the mass $P$ must be equal to the counter clockwise moment $m$ due to elastic force of the curved beam. From elastic theory this elastic force is are proportional to curvature.
+The ``Cantilever Problem'' first posed in 1694 James Bernoulli. He asked: What shape must a pre-curved thin beam fixed at one end have in order to be horizontal and straight when a weight is added to the non fixed end? 
+
+Bernoulli claimed the curvature increased along the beam and was proportional to the distance along the beam. But he never provided a proof.
+
+It was not until 1744 that Euler proved the result and attempted his first calculations.
+
+The curve $a-B$ is the pre-curved beam before the weight has been put on one end. Notice how the curve starts flat and gets more curved as it reaches the fixed end.
+
+Euler's showed that when the curve is horizontal when the mass $P$ is attached to the end $A$.
 
 The right hand chart shows the convergence of the spiral to the limit of the integral.
 
@@ -612,7 +616,7 @@ In 1899 railway engineer Arthur Talbot solved the problem mathematically and der
 
 These curves are called transition curves and are used to link straight sections of road and railways.
 
-Look at the bottom loop of this "clover leaf exchange". You would turn through almost 240 degrees if you went round that loop. 
+Look at the bottom loop of this "clover leaf interchange". You would turn through almost 240 degrees if you went round that loop. 
 
 Knowing what we know now we see the curvature starts very gently and the curvature increases with the arc length - until we reach the apex. Then we see the curvature decreases with arc length.
 
@@ -633,15 +637,15 @@ Now we look at why that is a "good behaviour" for transition curve.
 	\end{itemize}
 \end{tcolorbox}
 
-I'm sure you recall the formula for acceleration along a curve. 
+The general formula for acceleration along a curve is given here. 
 
 It's made up of two components. First, the \emph{linear} acceleration along the straight line given by the tangent. Which is just the rate of change of speed along the curve or the the second derivative of curve length with respect to time.
 
 Second, we have the \emph{angular} acceleration which is in the direction perpendicular to the tangent line - i.e. in the direction of the normal vector. This acceleration depends of the curvature (or reciprocal of the the radius of the osculation circle) and the square of the speed along the curve.
 
-For our example suppose we want to maintain constant speed along the curve - although argument can be extended to the case where we want to accelerate along the curve as in the case of finding the best racing line for racing drivers.
+For our example suppose we want to maintain constant speed along the curve.
 
-However for normal cases, what we can see is, to avoid being thrown around in a car or train, we want the curvature to increase with curve length.
+We want to avoid being thrown around in a car or train. Therefore we want the curvature to increase with curve length.
 
 \section{Case 1: Semicircular transition curves}
 \begin{tcolorbox}
