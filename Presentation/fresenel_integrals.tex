@@ -1,0 +1,87 @@
+\documentclass[]{article} % use larger type; default would be 10pt
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+
+%no indented paragrapsh!
+\setlength{\parindent}{0in}
+\setlength{\parskip}{0.2in}
+
+%%% Examples of Article customizations
+% These packages are optional, depending whether you want the features they provide.
+% See the LaTeX Companion or other references for full information.
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+\geometry{top=0.5in}
+\usepackage{graphicx,color} % support the \includegraphics command and options
+%primary color palette
+
+%%% PACKAGES
+\usepackage{amsmath}
+\usepackage{booktabs} % for much better looking tables
+%\usepackage[]{fullpage} 
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+\usepackage{multirow} 
+\usepackage{rotating}
+\usepackage{amsthm}
+
+
+\begin{document}
+
+\section{Converting $x$ and $y$ Coordinates into Fresnel Integrals}
+First, we need to convert the Euler version into the Fresnel version.  We start with the $x$ coordinate first.
+
+The Euler version with constant of proportionality equal to $\alpha$ is given by
+\[
+	x(s) = \int_{0}^{s} \cos \frac{\alpha u^2}{2} du
+\]
+and we have that the standard Fresnel version is 
+\[
+	C(z) = \int_{0}^{z} \cos \frac{\pi t^2}{2} dt
+\]
+Apply the following transformation $t = \frac{\sqrt{\alpha}}{\sqrt{\pi}} u$ we have $du = \frac{\sqrt{\pi}}{\sqrt{\alpha}} dt$ and then
+\begin{eqnarray*}
+	x(s) &=& \int_{0}^{s} \cos \frac{\alpha u^2}{2} du \\
+	     &=& \frac{\sqrt{\pi}}{\sqrt{\alpha}} \int_{0}^{\frac{\sqrt{\alpha}}{\sqrt{\pi}} s} \cos \frac{\pi t^2}{2} dt \\
+	     &=& \frac{\sqrt{\pi}}{\sqrt{\alpha}} C\left(\frac{\sqrt{\alpha}}{\sqrt{\pi}} s\right)
+\end{eqnarray*}
+The same holds the second integral for the $y$ coordinate.
+\[
+	y(s) = \frac{\sqrt{\pi}}{\sqrt{\alpha}} S\left(\frac{\sqrt{\alpha}}{\sqrt{\pi}} s\right)
+\]
+where 
+\[
+	S(z) = \int_{0}^{z} \sin \frac{\pi t^2}{2} dt
+\]
+
+\section{Calculating Angle}
+Second we need to calculate the angle at the tangency point. In particular we cant to know when we have turned through $\frac{\pi}{2}$ the first time.
+
+Be we know from the definition of the Euler spiral that 
+\begin{eqnarray*}
+	\frac{dy}{dx} &=& \tan \left( \frac{\alpha s^2}{2}\right) \\
+				  &=& \tan \left( \frac{\pi}{2}\right)
+\end{eqnarray*}
+which implies $s^*$ the arc length when the angle turned is $\frac{\pi}{2}$ must satisfy 
+\[
+	s^* = \frac{\sqrt{\pi}}{\sqrt{\alpha}}
+\]
+Substituting into the equations above we get
+\begin{eqnarray*}
+x(s^*) &=& \frac{\sqrt{\pi}}{\sqrt{\alpha}} C\left( 1 \right) \\
+y(s^*) &=& \frac{\sqrt{\pi}}{\sqrt{\alpha}} S\left( 1 \right) \\
+\end{eqnarray*}
+
+\section{Matching The Radius}
+We want to make sure that the radius matches the height when at the apex i.e. when we have turned through $\frac{\pi}{2}$.
+\begin{eqnarray*}
+	r &=& y(s^*) \\ 
+	  &=& \frac{\sqrt{\pi}}{\sqrt{\alpha}} S\left( 1 \right)
+\end{eqnarray*}
+which gives
+\[
+	\alpha = \frac{\pi^2}{r^2} S(1) ^2
+\]
+\end{document}
